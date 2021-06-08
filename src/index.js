@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 import rootReducer from "./reducers";
 
+//  Redux Store Setup
 const store = createStore(
   rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -14,13 +15,14 @@ const store = createStore(
 
 ReactDOM.render(
   <React.StrictMode>
-    <link
+    <link //  Bootstrap CSS
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossOrigin="anonymous"
     ></link>
     <Provider store={store}>
+      {/* Bind Store To The Whole App */}
       <App />
     </Provider>
   </React.StrictMode>,

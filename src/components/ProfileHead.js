@@ -14,6 +14,7 @@ export const ProfileHead = ({ apiBasicInfo }) => {
     <div className="ProfileHead container-fluid">
       <div className="common-container row justify-content-around">
         <div className="image-container col-2">
+          {/* Image Side */}
           <img
             className="profile-image"
             src="https://i.pinimg.com/originals/bd/2e/23/bd2e2373e77d43f6b48d6fceafd96a2b.jpg"
@@ -21,6 +22,7 @@ export const ProfileHead = ({ apiBasicInfo }) => {
           ></img>
         </div>
         <div className="headline-container col-8 text-left">
+          {/* Text Side */}
           <h3>Welcome to my world!</h3>
           <hr></hr>
           <h5>Name : {data.name}</h5>
