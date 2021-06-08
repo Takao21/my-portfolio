@@ -1,21 +1,21 @@
-.ProfileHead {
+.ProfileHead .common-container {
   /* background-color: aqua; */
   padding: 2rem 0;
 }
 
-.ProfileHead .image-container {
+.ProfileHead .common-container .image-container {
   width: 200px;
   height: 200px;
 }
 
-.ProfileHead .image-container .profile-image {
+.ProfileHead .common-container .image-container .profile-image {
   width: 100%;
   height: 100%;
   border-radius: 2em;
   object-fit: cover;
 }
 
-.ProfileHead .headline-container {
+.ProfileHead .common-container .headline-container {
   height: 200px;
   overflow-y: auto;
 }
