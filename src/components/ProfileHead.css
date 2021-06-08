@@ -4,8 +4,8 @@
 }
 
 .ProfileHead .image-container {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
 .ProfileHead .image-container .profile-image {
@@ -16,6 +16,6 @@
 }
 
 .ProfileHead .headline-container {
-  height: 300px;
+  height: 200px;
   overflow-y: auto;
 }
