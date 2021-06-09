@@ -1,4 +1,5 @@
 import React from "react";
+import { ProfileAbout } from "../components/ProfileAbout";
 import { ProfileHead } from "../components/ProfileHead";
 import { basicInfo } from "../_json-placeholder/api_getBasicInfo";
 import "./HomePage.css";
@@ -8,7 +9,8 @@ export const HomePage = () => {
   const apiBasicInfo = basicInfo;
   return (
     <div className="HomePage">
-      <ProfileHead apiBasicInfo={apiBasicInfo}></ProfileHead>
+      <ProfileHead apiBasicInfo={apiBasicInfo} />
+      <ProfileAbout />
     </div>
   );
 };
