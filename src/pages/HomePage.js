@@ -10,7 +10,7 @@ export const HomePage = () => {
   return (
     <div className="HomePage">
       <ProfileHead apiBasicInfo={apiBasicInfo} />
-      <ProfileAbout />
+      <ProfileAbout about={apiBasicInfo.about} />
     </div>
   );
 };

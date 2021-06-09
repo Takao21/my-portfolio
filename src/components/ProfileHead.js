@@ -23,12 +23,20 @@ export const ProfileHead = ({ apiBasicInfo }) => {
         </div>
         <div className="headline-container col-8 text-left">
           {/* Text Side */}
-          <h3>Welcome to my world!</h3>
+          <h2 className="welcome-header">Welcome to my world!</h2>
           <hr></hr>
-          <h5>Name : {data.name}</h5>
-          <h5>Date of Birth : {data.birthday}</h5>
-          <h5>Gender : {data.gender}</h5>
-          <h5>Occupation : {data.occupation}</h5>
+          <h5>
+            <span className="info-type">Name</span> : {data.name}
+          </h5>
+          <h5>
+            <span className="info-type">Date of Birth</span> : {data.birthday}
+          </h5>
+          <h5>
+            <span className="info-type">Gender</span> : {data.gender}
+          </h5>
+          <h5>
+            <span className="info-type">Occupation</span> : {data.occupation}
+          </h5>
         </div>
       </div>
     </div>
