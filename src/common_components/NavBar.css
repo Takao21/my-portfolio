@@ -1,0 +1,7 @@
+.NavBar {
+  font-size: 1.5rem;
+}
+
+.NavBar .my-nav-link {
+  text-decoration: none;
+}

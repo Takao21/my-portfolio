@@ -28,7 +28,9 @@ export const ProfileHead = ({ apiBasicInfo }) => {
           <h5>
             <span className="info-type">Aliases</span> :{" "}
             {data.aliases.map((alias, index, arr) => (
-              <span>{index === arr.length - 1 ? alias : alias + ", "} </span>
+              <span key={index}>
+                {index === arr.length - 1 ? alias : alias + ", "}{" "}
+              </span>
             ))}
           </h5>
           <h5>

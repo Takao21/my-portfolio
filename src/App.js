@@ -1,11 +1,16 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import { HomePage } from "./pages/HomePage";
+import { NavBar } from "./common_components/NavBar";
+import { CurrentPage } from "./components/CurrentPage";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage></HomePage>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <CurrentPage />
+      </div>
+    </Router>
   );
 }
 
