@@ -1,0 +1,15 @@
+.ProfileBio {
+  margin: 4rem;
+}
+
+.ProfileBio .bio-text {
+  line-height: 2rem;
+}
+
+.ProfileBio .bio-image {
+  float: right;
+  margin: 0 1rem;
+  width: 25%;
+  height: 400px;
+  object-fit: cover;
+}
