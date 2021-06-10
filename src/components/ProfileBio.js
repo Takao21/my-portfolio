@@ -1,12 +1,12 @@
 import React from "react";
 import "./ProfileBio.css";
 
-export const ProfileBio = () => {
+export const ProfileBio = ({ apiMediaUrls }) => {
   return (
     <div className="ProfileBio">
       <img
         className="bio-image"
-        src="https://www.meme-arsenal.com/memes/659261991524eeef39f771c96714c286.jpg"
+        src={apiMediaUrls.urlBiographyImg1}
         alt="cat on balcony"
       />
       <p className="bio-text">
