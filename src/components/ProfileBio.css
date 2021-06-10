@@ -8,8 +8,8 @@
 
 .ProfileBio .bio-image {
   float: right;
-  margin: 0 1rem;
-  width: 25%;
+  margin-left: 1rem;
+  width: 20%;
   height: 400px;
   object-fit: cover;
 }
