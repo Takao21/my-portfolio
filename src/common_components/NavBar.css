@@ -1,7 +1,24 @@
 .NavBar {
   font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.NavBar .desktop-nav {
+  /* padding: 1rem 0; */
+  line-height: 9vh;
+  background-color: rgb(255, 243, 204);
+  box-shadow: 0 2px 5px #5f5f5f;
 }
 
 .NavBar .my-nav-link {
   text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
+.NavBar .my-nav-link:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 9px 10px rgb(10, 252, 38), 0px -7px 10px rgb(252, 10, 46),
+    0px 11px 12px rgb(255, 247, 0);
 }
