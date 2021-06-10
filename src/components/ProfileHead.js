@@ -23,10 +23,13 @@ export const ProfileHead = ({ apiBasicInfo }) => {
         </div>
         <div className="headline-container col-8 text-left">
           {/* Text Side */}
-          <h2 className="welcome-header">Welcome to my world!</h2>
+          <h2 className="welcome-header">{data.name}</h2>
           <hr></hr>
           <h5>
-            <span className="info-type">Name</span> : {data.name}
+            <span className="info-type">Aliases</span> :{" "}
+            {data.aliases.map((alias, index, arr) => (
+              <span>{index === arr.length - 1 ? alias : alias + ", "} </span>
+            ))}
           </h5>
           <h5>
             <span className="info-type">Date of Birth</span> : {data.birthday}

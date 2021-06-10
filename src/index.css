@@ -1,12 +1,12 @@
 /* CUSTOM FONTS  */
-/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Source Serif Pro', serif; */
 /* font-family: 'Dancing Script', cursive; */
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Source Serif Pro", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

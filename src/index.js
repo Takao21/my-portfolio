@@ -21,15 +21,15 @@ ReactDOM.render(
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossOrigin="anonymous"
     ></link>
-    <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
-    ></link>
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
       rel="stylesheet"
-    ></link>
+    />
     <Provider store={store}>
       {/* Bind Store To The Whole App */}
       <App />

@@ -1,5 +1,6 @@
 const initialState = {
   name: "",
+  aliases: [],
   gender: "",
   birthday: "",
   occupation: "",
