@@ -9,6 +9,7 @@ export const ProfileHead = ({ apiBasicInfo, apiMediaUrls }) => {
   const data = useSelector((state) => state.updateDataReducer);
   useEffect(() => {
     dispatch(updateData(apiBasicInfo));
+    // eslint-disable-next-line
   }, []);
   return (
     <div className="ProfileHead container-fluid">

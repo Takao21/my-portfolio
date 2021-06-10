@@ -2,8 +2,8 @@ import React from "react";
 import { ProfileAbout } from "../components/ProfileAbout";
 import { ProfileBio } from "../components/ProfileBio";
 import { ProfileHead } from "../components/ProfileHead";
-import { basicInfo } from "../_json-placeholder/api_getBasicInfo";
-import { mediaUrls } from "../_json-placeholder/api_media";
+import { basicInfo } from "../_fake-api/api_getBasicInfo";
+import { mediaUrls } from "../_fake-api/api_media";
 import "./HomePage.css";
 
 export const HomePage = () => {
