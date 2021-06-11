@@ -15,7 +15,7 @@ function App() {
         <NavBar />
         <OverlayIntro setOverlayActive={setOverlayActive} />
         {!overlayActive && <CurrentPage />}
-        <PageFooter />
+        {!overlayActive && <PageFooter />}
       </div>
     </Router>
   );
