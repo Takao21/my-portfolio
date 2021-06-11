@@ -24,7 +24,7 @@ export const OverlayIntro = ({ setOverlayActive }) => {
   return (
     <div className="OverlayIntro" ref={overlayRef}>
       <button
-        className="close-overlay-btn btn"
+        className="close-overlay-btn btn btn-secondary"
         onClick={() => handleCloseOverlay()}
       >
         Start
