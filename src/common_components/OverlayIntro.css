@@ -1,18 +1,55 @@
 .OverlayIntro {
   min-height: 100vh;
   min-width: 100%;
-  background-image: url(https://wallpaperaccess.com/full/2886345.png);
+  background-image: url(https://cdn.wallpapersafari.com/41/16/IOmeDP.jpg);
   background-size: cover;
   background-position: top center;
   position: absolute;
   top: 0;
   z-index: 900;
   opacity: 100;
+  filter: grayscale(0.5);
 }
 
-.OverlayIntro .close-overlay-btn {
+.OverlayIntro .shadow-layer {
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+  min-width: 100%;
+  z-index: 901;
+}
+
+.OverlayIntro .content-layer {
+  width: 50%;
+  position: absolute;
+  z-index: 902;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.OverlayIntro .intro-image {
+  float: left;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.OverlayIntro .text-content {
+  color: #ffffff;
+}
+
+.OverlayIntro .text-content h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.OverlayIntro .btn {
+  /* margin-top: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%); */
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
 }

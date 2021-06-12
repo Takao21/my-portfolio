@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
         <OverlayIntro setOverlayActive={setOverlayActive} />
+        {!overlayActive && <NavBar />}
         {!overlayActive && <CurrentPage />}
         {!overlayActive && <PageFooter />}
       </div>
