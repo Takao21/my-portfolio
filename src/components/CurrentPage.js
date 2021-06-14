@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
+import { SkillsPage } from "../pages/SkillsPage";
 import "./CurrentPage.css";
 
 export const CurrentPage = () => {
@@ -11,7 +12,7 @@ export const CurrentPage = () => {
           <p>Achievements</p>
         </Route>
         <Route exact path="/skills">
-          <p>Skills</p>
+          <SkillsPage />
         </Route>
         <Route exact path="/contact">
           <p>Contact</p>

@@ -1,0 +1,11 @@
+.SkillsPage {
+  padding: 0 1rem 2.5rem 1rem;
+}
+
+.SkillsPage .row {
+  row-gap: 1.5rem;
+}
+
+/* .SkillsPage .row div {
+  align-self: center;
+} */
