@@ -6,6 +6,41 @@
   row-gap: 1.5rem;
 }
 
+.SkillsPage .quote-div {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8f8873;
+}
+
+.SkillsPage .my-quote {
+  font-size: 2rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  position: relative;
+}
+
+.SkillsPage .quote-footer {
+  font-size: 1.5rem;
+  color: rgb(211, 211, 211);
+}
+
+.SkillsPage .quote-footer::before {
+  content: "\2015";
+}
+
+.SkillsPage .quote-footer::after {
+  content: "\201D";
+  position: absolute;
+  top: -4rem;
+  right: 0rem;
+  font-size: 6em;
+  /* font-style: italic; */
+  z-index: -1;
+}
+
 /* .SkillsPage .row div {
   align-self: center;
 } */
