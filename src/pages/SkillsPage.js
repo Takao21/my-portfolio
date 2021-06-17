@@ -15,9 +15,9 @@ export const SkillsPage = () => {
           <footer className="quote-footer">Takao</footer>
         </blockquote>
       </div>
-      <div className="row">
+      <div className="card-div row">
         {apiSkills.map((skill) => (
-          <div key={skill.id} className="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+          <div key={skill.id} className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <SkillCard skill={skill} />
           </div>
         ))}

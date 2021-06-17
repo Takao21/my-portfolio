@@ -8,8 +8,8 @@ export const CurrentPage = () => {
   return (
     <div className="CurrentPage">
       <Switch>
-        <Route exact path="/achievements">
-          <p>Achievements</p>
+        <Route exact path="/work">
+          <p>Work</p>
         </Route>
         <Route exact path="/skills">
           <SkillsPage />
