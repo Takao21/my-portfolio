@@ -1,4 +1,4 @@
-.ResumePage .resume-body-side {
+/* .ResumePage .resume-body-side {
   background-color: aquamarine;
   height: 400px;
 }
@@ -6,4 +6,13 @@
 .ResumePage .resume-body-main {
   background-color: rgb(236, 255, 127);
   height: 400px;
+} */
+
+.ResumePage .work-details-segment,
+.ResumePage .education-details-segment {
+  margin-bottom: 2rem;
+}
+
+.ResumePage .timespan-text {
+  color: #afafaf;
 }
