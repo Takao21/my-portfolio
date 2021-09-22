@@ -1,12 +1,8 @@
 .ProfileAbout {
   border: 1px solid grey;
   border-radius: 1rem;
-  padding: 1rem;
-}
-
-.ProfileAbout .about-title,
-.ProfileAbout .about-body {
-  font-family: "Dancing Script", cursive;
+  padding: 2rem;
+  text-align: center;
 }
 
 .ProfileAbout .about-title {
@@ -15,6 +11,5 @@
 }
 
 .ProfileAbout .about-body {
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.3rem;
 }

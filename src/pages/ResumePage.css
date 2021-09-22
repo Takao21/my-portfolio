@@ -1,0 +1,9 @@
+.ResumePage .resume-body-side {
+  background-color: aquamarine;
+  height: 400px;
+}
+
+.ResumePage .resume-body-main {
+  background-color: rgb(236, 255, 127);
+  height: 400px;
+}

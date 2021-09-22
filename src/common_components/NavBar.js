@@ -10,17 +10,17 @@ export const NavBar = () => {
         <div className="row">
           <div className="col-3 text-center">
             <Link className="my-nav-link" to="/">
-              Home
+              Biography
             </Link>
           </div>
           <div className="col-3 text-center">
             <Link className="my-nav-link" to="/skills">
-              Skills
+              Skills & Knowledge
             </Link>
           </div>
           <div className="col-3 text-center">
-            <Link className="my-nav-link" to="/work">
-              Work
+            <Link className="my-nav-link" to="/resume">
+              Résumé
             </Link>
           </div>
           <div className="col-3 text-center">
