@@ -16,3 +16,8 @@
 .ResumePage .timespan-text {
   color: #afafaf;
 }
+
+.ResumePage .section-title {
+  background: linear-gradient(90deg, #81aef7, #ffffff);
+  padding: 0.5rem 0;
+}

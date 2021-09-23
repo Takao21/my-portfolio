@@ -12,7 +12,7 @@ export const ResumePage = () => {
         <div className="row">
           <div className="resume-body-main col-9">
             <div className="profile-section">
-              <h2>Profile</h2>
+              <h2 className="section-title">Profile</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 consequat hendrerit nibh ut mattis. Proin maximus hendrerit
@@ -27,7 +27,7 @@ export const ResumePage = () => {
             </div>
             <br />
             <div className="workhistory-section">
-              <h2>Work History</h2>
+              <h2 className="section-title">Work History</h2>
               <div className="work-details-segment">
                 <h3>Founder/Co-Founder, Myan Digital, Yangon</h3>
                 <h4 className="timespan-text">August 2020 - Present</h4>
@@ -84,7 +84,7 @@ export const ResumePage = () => {
             </div>
             <br></br>
             <div className="education-section">
-              <h2>Education</h2>
+              <h2 className="section-title">Education</h2>
               <div className="education-details-segment">
                 <h3>
                   JavaScript & ReactJS, Turing Programming Language Center,
