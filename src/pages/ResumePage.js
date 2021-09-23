@@ -31,6 +31,7 @@ export const ResumePage = () => {
             <div className="contact-section">
               <h2>Contact</h2>
               <p>
+                {/* eslint-disable-next-line */}
                 <a href="#">dragon.takao21@gmail.com</a>
               </p>
               <p>+95 9 95 550 1280</p>
