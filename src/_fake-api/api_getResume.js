@@ -1,15 +1,17 @@
+//  some common API weak points are added here on purpose
+//  handled them on the front end to show my API knowledge
 export const resume = {
   name: "Aung Kaung Khant",
   profileDescription:
     "hello Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat hendrerit nibh ut mattis. Proin maximus hendrerit aliquet. Quisque aliquam erat ut iaculis faucibus. Donec placerat nisi in interdum efficitur. Proin eget sem a leo mollis facilisis quis auctor justo. Fusce bibendum semper mi, eu interdum odio egestas at. Aenean condimentum nisl lacus, vitae porta leo sodales vitae. Cras vitae luctus est, in suscipit erat. Donec ac dignissim diam. Suspendisse potenti. Maecenas elementum purus ac enim sagittis, in pretium velit suscipit.",
   workHistory: [
     {
-      index: 1,
+      index: 3, //  larger index = more recent in chronological order
       position: "Founder/Co-Founder",
       company: "Myan Digital",
       location: "Yangon",
       fromDate: "August 2020",
-      toDate: "",
+      toDate: "", // empty data condition
       highlights: [
         "Founded through start-up acceleration by winning the Doh Phandee Back To Business challenge",
         "An organization with visions for fully digitized shops and businesses in Myanmar",
@@ -30,7 +32,7 @@ export const resume = {
       ],
     },
     {
-      index: 3,
+      index: 1,
       position: "Asst. Tutor/Teacher",
       company: "Tr. Daw Nwe Ni Privation Tuition",
       location: "Yangon",
@@ -45,18 +47,19 @@ export const resume = {
   ],
   education: [
     {
-      index: 2,
+      index: 3,
       fieldOfStudy: "B.E (C.E.I.T) Foundations",
       facility: "Yangon Technological University",
       location: "",
       fromDate: "Dec 2017",
       toDate: "May 2018",
       notes: [
+        //  unusual extra data condition
         "Dropped out after the foundation year to pursue career and passion.",
       ],
     },
     {
-      index: 1,
+      index: 4,
       fieldOfStudy: "JavaScript & ReactJS",
       facility: "Turing Programming Language Center",
       location: "Yangon",
@@ -65,7 +68,7 @@ export const resume = {
       notes: [],
     },
     {
-      index: 3,
+      index: 2, //  unsorted data condition
       fieldOfStudy: "High School",
       facility: "B.E.H.S No.1 Dagon Township",
       location: "Yangon",
@@ -74,7 +77,7 @@ export const resume = {
       notes: [],
     },
     {
-      index: 4,
+      index: 1,
       fieldOfStudy: "Primary School",
       facility: "B.E.P.S No.10 Dagon Township",
       location: "Yangon",

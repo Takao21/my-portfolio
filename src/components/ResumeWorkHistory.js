@@ -6,7 +6,7 @@ export const ResumeWorkHistory = ({ workHistory }) => {
     <div className="ResumeWorkHistory workhistory-section">
       <h2 className="section-title">Work History</h2>
       {workHistory
-        .sort((a, b) => a.index - b.index)
+        .sort((a, b) => b.index - a.index) //  sort in reverse chronological order using the simplified indices in the API
         .map((work) => (
           <div className="work-details-segment" key={work.index}>
             <h3>

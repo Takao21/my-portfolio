@@ -6,7 +6,7 @@ export const ResumeEducation = ({ education }) => {
     <div className="ResumeEducation education-section">
       <h2 className="section-title">Education</h2>
       {education
-        .sort((a, b) => a.index - b.index)
+        .sort((a, b) => b.index - a.index) //  sort in reverse chronological order using the simplified indices in the API
         .map((data) => (
           <div className="education-details-segment" key={data.index}>
             <h3>
