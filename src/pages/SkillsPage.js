@@ -9,7 +9,7 @@ export const SkillsPage = () => {
   return (
     <div className="SkillsPage">
       <div className="quote-div text-center">
-        <blockquote class="my-quote">
+        <blockquote className="my-quote">
           Don't get bothered by what you can't control. Focus on what you can
           do.
           <footer className="quote-footer">Takao</footer>
