@@ -16,7 +16,7 @@ export const ResumePage = () => {
       </div>
       <hr />
       <div className="resume-body-wrapper container-fluid">
-        <div className="row">
+        <div className="row body-flex-container">
           <div className="resume-body-main col-9">
             <ResumeProfile
               profileDescription={api_getResume.profileDescription}
@@ -29,15 +29,17 @@ export const ResumePage = () => {
 
           <div className="resume-body-side col-3">
             <div className="contact-section">
-              <h2>Contact</h2>
+              <h2 className="resumeside-title">Contact</h2>
               <p>
                 {/* eslint-disable-next-line */}
-                <a href="#">dragon.takao21@gmail.com</a>
+                dragon.takao21@gmail.com
               </p>
               <p>+95 9 95 550 1280</p>
             </div>
+            <hr />
+
             <div className="skills-section">
-              <h2>Skills</h2>
+              <h2 className="resumeside-title">Skills</h2>
               <ul>
                 <li>HTML, CSS, JavaScript</li>
                 <li>React.js</li>
@@ -45,8 +47,10 @@ export const ResumePage = () => {
                 <li>Problem Solving</li>
               </ul>
             </div>
+            <hr />
+
             <div className="languages-section">
-              <h2>Languages</h2>
+              <h2 className="resumeside-title">Languages</h2>
               <ul>
                 <li>Burmese</li>
                 <li>English</li>
