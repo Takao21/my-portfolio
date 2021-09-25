@@ -50,7 +50,7 @@ export const resume = {
       index: 3,
       fieldOfStudy: "B.E (C.E.I.T) Foundations",
       facility: "Yangon Technological University",
-      location: "",
+      location: "Yangon",
       fromDate: "Dec 2017",
       toDate: "May 2018",
       notes: [
