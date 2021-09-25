@@ -4,6 +4,7 @@ import { resume } from "../_fake-api/api_getResume";
 import { ResumeProfile } from "../components/ResumeProfile";
 import { ResumeWorkHistory } from "../components/ResumeWorkHistory";
 import { ResumeEducation } from "../components/ResumeEducation";
+// import hacker_sprite from "public/pictures/hacker_sprite.png";
 
 export const ResumePage = () => {
   // placeholder API
@@ -11,6 +12,7 @@ export const ResumePage = () => {
 
   return (
     <div className="ResumePage">
+      <img className="bg-sprite" src="/pictures/hacker_sprite.png" alt="" />
       <div className="resume-name-div container-fluid mt-3">
         <h1>{api_getResume.name}</h1>
       </div>

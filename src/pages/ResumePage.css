@@ -11,6 +11,15 @@
 .ResumePage {
   padding-right: 1rem;
 }
+
+.ResumePage .bg-sprite {
+  position: absolute;
+  height: 600px;
+  bottom: 0;
+  right: 0;
+  filter: opacity(25%);
+}
+
 .ResumePage .body-flex-container {
   align-items: flex-start;
 }
