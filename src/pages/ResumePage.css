@@ -13,6 +13,7 @@
 }
 
 .ResumePage .bg-sprite {
+  z-index: -999;
   position: absolute;
   height: 600px;
   bottom: 0;
