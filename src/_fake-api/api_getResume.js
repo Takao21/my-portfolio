@@ -34,7 +34,7 @@ export const resume = {
     {
       index: 1,
       position: "Asst. Tutor/Teacher",
-      company: "Tr. Daw Nwe Ni Privation Tuition",
+      company: "Tr. Daw Nwe Ni Private Tuition",
       location: "Yangon",
       fromDate: "May 2017",
       toDate: "Sep 2017",
