@@ -30,6 +30,12 @@ export const CurrentPage = () => {
           <Route exact path="/">
             <HomePage />
           </Route>
+          <Route>
+            <h1 className="text-center mt-5">Error 404: Page Not Found</h1>
+            <p className="text-center">
+              Please use the navigation bar to find get back to existing pages.
+            </p>
+          </Route>
         </Switch>
       </ScrollToTop>
     </div>
