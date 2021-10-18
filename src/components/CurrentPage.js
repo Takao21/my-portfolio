@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import { ContactPage } from "../pages/ContactPage";
 import { HomePage } from "../pages/HomePage";
 import { ResumePage } from "../pages/ResumePage";
 import { SkillsPage } from "../pages/SkillsPage";
@@ -18,7 +19,7 @@ export const CurrentPage = () => {
             <SkillsPage />
           </Route>
           <Route exact path="/contact">
-            <p>Contact</p>
+            <ContactPage />
           </Route>
           <Route exact path="/home">
             <HomePage />

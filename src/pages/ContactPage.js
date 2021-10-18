@@ -21,7 +21,15 @@ export const ContactPage = () => {
           </div>
           <div className="col-3 contact-card contact-socialmedia">
             <h2>Linkedin</h2>
-            <p></p>
+            <p>
+              <a
+                href="https://www.linkedin.com/p/takao21"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>Go To Profile
+              </a>
+            </p>
           </div>
         </div>
       </div>

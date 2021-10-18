@@ -32,6 +32,7 @@ ReactDOM.render(
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <Provider store={store}>
       {/* Bind Store To The Whole App */}
       <App />
