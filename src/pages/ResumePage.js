@@ -4,7 +4,6 @@ import { resume } from "../_fake-api/api_getResume";
 import { ResumeProfile } from "../components/ResumeProfile";
 import { ResumeWorkHistory } from "../components/ResumeWorkHistory";
 import { ResumeEducation } from "../components/ResumeEducation";
-// import hacker_sprite from "public/pictures/hacker_sprite.png";
 
 export const ResumePage = () => {
   // placeholder API

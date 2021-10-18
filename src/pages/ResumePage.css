@@ -9,7 +9,11 @@
 } */
 
 .ResumePage {
-  padding-right: 1rem;
+  padding-right: 2rem;
+}
+
+.ResumePage .resume-name-div {
+  padding-left: 2rem;
 }
 
 .ResumePage .bg-sprite {
@@ -34,13 +38,19 @@
   color: #afafaf;
 }
 
+.ResumePage .subsection {
+  margin-left: 3rem;
+}
+
 .ResumePage .section-title {
-  background: linear-gradient(90deg, #81aef7, #ffffff);
-  padding: 0.5rem 0;
+  border-top-left-radius: 1rem;
+  background: linear-gradient(90deg, #bbd5ff, #ffffff);
+  padding: 1rem 0 1rem 1rem;
+  margin-left: -2rem;
 }
 
 .ResumePage .resume-body-side {
-  background-color: #a7c8fd;
+  background-color: #bbd5ff;
   color: #000;
   border-radius: 1rem;
   padding: 1rem 1.5rem;

@@ -1,10 +1,14 @@
 import React from "react";
 import "./ResumeWorkHistory.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 export const ResumeWorkHistory = ({ workHistory }) => {
   return (
-    <div className="ResumeWorkHistory workhistory-section">
-      <h2 className="section-title">Work History</h2>
+    <div className="ResumeWorkHistory subsection workhistory-section">
+      <h2 className="section-title">
+        <FontAwesomeIcon icon={faBriefcase} /> Work History
+      </h2>
       {workHistory
         .sort((a, b) => b.index - a.index) //  sort in reverse chronological order using the simplified indices in the API
         .map((work) => (
