@@ -27,6 +27,10 @@ export const CurrentPage = () => {
           <Route exact path="/">
             <HomePage />
           </Route>
+          {/*redirect all 404 paths to homepage*/}
+          <Route>
+            <HomePage />
+          </Route>
         </Switch>
       </ScrollToTop>
     </div>
