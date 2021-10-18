@@ -24,11 +24,10 @@ export const CurrentPage = () => {
           <Route exact path="/home">
             <HomePage />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/my-portfolio">
             <HomePage />
           </Route>
-          {/*redirect all 404 paths to homepage*/}
-          <Route>
+          <Route exact path="/">
             <HomePage />
           </Route>
         </Switch>
