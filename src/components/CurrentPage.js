@@ -27,7 +27,7 @@ export const CurrentPage = () => {
           <Route exact path="/my-portfolio">
             <HomePage />
           </Route>
-          <Route exact path="/">
+          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/"}>
             <HomePage />
           </Route>
           <Route>

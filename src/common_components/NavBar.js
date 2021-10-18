@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+require("dotenv").config();
 
 export const NavBar = () => {
   return (
@@ -9,7 +10,10 @@ export const NavBar = () => {
       <div className="desktop-nav container-fluid">
         <div className="row">
           <div className="col-3 text-center">
-            <Link className="my-nav-link" to="/">
+            <Link
+              className="my-nav-link"
+              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+            >
               Biography
             </Link>
           </div>
