@@ -11,6 +11,7 @@ function App() {
 
   return (
     <Router basename={process.env.REACT_APP_PUBLIC_URL}>
+      {console.log("Logging env", process.env.REACT_APP_PUBLIC_URL)}
       <div className="App">
         <OverlayIntro setOverlayActive={setOverlayActive} />
         {!overlayActive && <NavBar />}
