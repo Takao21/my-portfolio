@@ -9,10 +9,7 @@ export const NavBar = () => {
       <div className="desktop-nav container-fluid">
         <div className="row">
           <div className="col-3 text-center">
-            <Link
-              className="my-nav-link"
-              to={process.env.REACT_APP_PUBLIC_URL + "/"}
-            >
+            <Link className="my-nav-link" to="/">
               Biography
             </Link>
           </div>

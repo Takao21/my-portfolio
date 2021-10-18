@@ -10,7 +10,7 @@ function App() {
   const [overlayActive, setOverlayActive] = useState(true);
 
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
       <div className="App">
         <OverlayIntro setOverlayActive={setOverlayActive} />
         {!overlayActive && <NavBar />}
