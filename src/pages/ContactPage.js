@@ -1,5 +1,9 @@
 import React from "react";
 import "./ContactPage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+
 export const ContactPage = () => {
   return (
     <div className="ContactPage">
@@ -12,22 +16,28 @@ export const ContactPage = () => {
       <div className="contact-body container-fluid text-center">
         <div className="row justify-content-around">
           <div className="col-3 contact-card contact-phone">
-            <h2>Phone</h2>
+            <h2>
+              <FontAwesomeIcon icon={faPhoneAlt} /> Phone
+            </h2>
             <p>+95 9 95 550 1280</p>
           </div>
           <div className="col-3 contact-card contact-email">
-            <h2>Email</h2>
+            <h2>
+              <FontAwesomeIcon icon={faEnvelope} /> Email
+            </h2>
             <p>dragon.takao21@gmail.com</p>
           </div>
           <div className="col-3 contact-card contact-socialmedia">
-            <h2>Linkedin</h2>
+            <h2>
+              <FontAwesomeIcon icon={faLinkedin} /> Linkedin
+            </h2>
             <p>
               <a
-                href="https://www.linkedin.com/p/takao21"
+                href="https://www.linkedin.com/in/takao21"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-linkedin"></i>Go To Profile
+                Go To Profile
               </a>
             </p>
           </div>
