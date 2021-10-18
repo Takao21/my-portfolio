@@ -37,11 +37,19 @@ export const ContactPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Go To Profile
+                <strong>Go To Profile</strong>
               </a>
             </p>
           </div>
         </div>
+      </div>
+      <div className="contact-tail text-center">
+        <h2>
+          <span className="tail-word-1">HAVE </span>
+          <span className="tail-word-2">A </span>
+          <span className="tail-word-3">GOOD </span>
+          <span className="tail-word-4">DAY!</span>
+        </h2>
       </div>
     </div>
   );
