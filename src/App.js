@@ -10,7 +10,7 @@ function App() {
   const [overlayActive, setOverlayActive] = useState(true);
 
   return (
-    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
+    <Router>
       {console.log("Logging env", process.env.REACT_APP_PUBLIC_URL)}
       <div className="App">
         <OverlayIntro setOverlayActive={setOverlayActive} />
