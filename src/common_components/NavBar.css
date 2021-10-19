@@ -1,26 +1,45 @@
 .NavBar {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   position: sticky;
   top: 0;
   z-index: 999;
 }
 
 .NavBar .desktop-nav {
-  /* padding: 1rem 0; */
   line-height: 4rem;
-  /* background-color: rgb(255, 243, 204); */
+  height: 4rem;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 5px #5f5f5f;
+}
 
-  box-shadow: 0 2px 5px #5f5f5f;
+.NavBar .logo-link {
+  width: 100%;
+}
+
+.NavBar .nav-logo {
+  height: 5rem;
+  width: auto;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  box-shadow: 0 1px 5px #5f5f5f;
+  /* transform: translateY(-25%); */
 }
 
 .NavBar .my-nav-link {
   text-decoration: none;
   color: rgb(37, 37, 37);
+  vertical-align: center;
 }
 
-.NavBar .my-nav-link:hover {
-  color: rgb(0, 0, 0);
-  text-shadow: 0px 9px 10px rgb(10, 252, 38), 0px -7px 10px rgb(252, 10, 46),
-    0px 11px 12px rgb(255, 247, 0);
+.NavBar .desktop-nav .row .col-2:nth-child(1) .my-nav-link:hover {
+  border-bottom: 0.2rem solid #a1d0ff;
+}
+.NavBar .desktop-nav .row .col-2:nth-child(2) .my-nav-link:hover {
+  border-bottom: 0.2rem solid #3dff91;
+}
+.NavBar .desktop-nav .row .col-2:nth-child(4) .my-nav-link:hover {
+  border-bottom: 0.2rem solid #2fff89;
+}
+.NavBar .desktop-nav .row .col-2:last-child .my-nav-link:hover {
+  border-bottom: 0.2rem solid #f8adff;
 }

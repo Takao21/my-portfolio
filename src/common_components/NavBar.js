@@ -7,8 +7,8 @@ export const NavBar = () => {
     <div className="NavBar">
       {/* DeskTop View */}
       <div className="desktop-nav container-fluid">
-        <div className="row">
-          <div className="col-3 text-center">
+        <div className="row justify-content-around">
+          <div className="col-2 text-center">
             <Link
               className="my-nav-link"
               to={process.env.REACT_APP_PUBLIC_URL + "/"}
@@ -16,15 +16,27 @@ export const NavBar = () => {
               Biography
             </Link>
           </div>
-          <div className="col-3 text-center">
+          <div className="col-2 text-center">
             <Link
               className="my-nav-link"
               to={process.env.REACT_APP_PUBLIC_URL + "/skills"}
             >
-              Skills & Knowledge
+              Skills
             </Link>
           </div>
-          <div className="col-3 text-center">
+          <div className="col-2 text-center">
+            <Link
+              className="logo-link"
+              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+            >
+              <img
+                className="nav-logo"
+                src={process.env.REACT_APP_PUBLIC_URL + "/pictures/logo.png"}
+                alt=""
+              />
+            </Link>
+          </div>
+          <div className="col-2 text-center">
             <Link
               className="my-nav-link"
               to={process.env.REACT_APP_PUBLIC_URL + "/resume"}
@@ -32,7 +44,7 @@ export const NavBar = () => {
               Résumé
             </Link>
           </div>
-          <div className="col-3 text-center">
+          <div className="col-2 text-center">
             <Link
               className="my-nav-link"
               to={process.env.REACT_APP_PUBLIC_URL + "/contact"}

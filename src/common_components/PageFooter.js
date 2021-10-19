@@ -4,8 +4,9 @@ import "./PageFooter.css";
 export const PageFooter = () => {
   return (
     <div className="PageFooter text-center">
-      <p>Portfolio & Biography</p>
-      <p>&copy; Fully Developed by Aung Kaung Khant, Year 2021</p>
+      <p>
+        Portfolio &copy; Aung Kaung Khant (Takao), 2021, All Rights Reserved
+      </p>
     </div>
   );
 };
