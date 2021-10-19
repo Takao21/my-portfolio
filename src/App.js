@@ -7,13 +7,13 @@ import { PageFooter } from "./common_components/PageFooter";
 import { CurrentPage } from "./components/CurrentPage";
 
 function App() {
-  const [overlayActive, setOverlayActive] = useState(true);
+  const [overlayActive, setOverlayActive] = useState(false); // !!! Set default to true and edit css for document scroll if you use the overlay intro
 
   return (
     <Router>
       {console.log("Logging env", process.env.REACT_APP_PUBLIC_URL)}
       <div className="App">
-        <OverlayIntro setOverlayActive={setOverlayActive} />
+        {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
         {!overlayActive && <NavBar />}
         {!overlayActive && <CurrentPage />}
         {!overlayActive && <PageFooter />}
