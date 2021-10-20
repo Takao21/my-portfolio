@@ -21,14 +21,11 @@ function App() {
         setScrolled(false);
       }
     });
-    return () => {
-      document.removeEventListener("scroll");
-    };
   }, []);
 
   return (
     <Router>
-      {console.log("Logging env", process.env.REACT_APP_PUBLIC_URL)}
+      {console.log("The document is at top: ", !scrolled)}
       <div className="App">
         {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
         {!overlayActive && <NavBar />}
