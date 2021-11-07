@@ -44,10 +44,17 @@ export const SkillsPage = () => {
         <div className="main-skill prl-4">
           <h2>React</h2>
         </div>
+        <div className="main-skill prl-5">
+          <h2>Bootstrap</h2>
+        </div>
+        <div className="main-skill prl-tail">
+          <p>... and more.</p>
+        </div>
       </div>
+
       <div className="projects-div">
         <div className="category-title">
-          <h3>HTML Projects</h3>
+          <h3>Personal Projects</h3>
         </div>
         <div className="prj-cards-container d-flex">
           <div className="prj-card">
@@ -60,7 +67,7 @@ export const SkillsPage = () => {
           <div className="prj-card">
             <img
               className="prj-img"
-              src="https://www.onressoftware.com/wp-content/uploads/2019/10/Screen-Shot-2019-10-15-at-TuesdayOctober1510.00PM.png"
+              src="https://34sp.net/img/www/sample-sites/pingcreates.1.jpg"
               alt=""
             ></img>
           </div>
@@ -68,7 +75,7 @@ export const SkillsPage = () => {
       </div>
       <div className="projects-div">
         <div className="category-title">
-          <h3>CSS Projects</h3>
+          <h3>Collaboration Projects</h3>
         </div>
         <div className="prj-cards-container d-flex">
           <div className="prj-card">
