@@ -1,5 +1,5 @@
 .SkillsPage {
-  padding: 0 1rem 2.5rem 1rem;
+  padding: 0 3rem 2.5rem 3rem;
 }
 
 .SkillsPage .row {
@@ -44,4 +44,63 @@
 .SkillsPage .card-div {
   max-width: 80%;
   margin: auto;
+}
+
+/* ----------------------- */
+
+.SkillsPage .main-skills-div {
+  height: 60vh;
+}
+
+.SkillsPage .main-skill {
+  display: inline-block;
+  margin-right: 1rem;
+  height: 30vh;
+  width: 10vw;
+  padding: 0 1rem;
+  transform: skew(-20deg);
+  margin-left: -2rem;
+}
+.SkillsPage .main-skill:first-child {
+  margin-left: 2rem;
+}
+
+.SkillsPage .main-skill h2 {
+  line-height: 30vh;
+  color: rgb(0, 0, 0);
+}
+
+.SkillsPage .main-skill:nth-child(even) {
+  transform: skew(-20deg) translateY(50%);
+}
+
+.SkillsPage .prl-1 {
+  background-color: #ffbfb5;
+}
+.SkillsPage .prl-2 {
+  background-color: #b0fcd2;
+}
+.SkillsPage .prl-3 {
+  background-color: #e7fd69;
+}
+.SkillsPage .prl-4 {
+  background-color: #bab0e6;
+}
+
+.SkillsPage .projects-div {
+  margin-bottom: 4rem;
+}
+
+.SkillsPage .prj-card {
+  display: block;
+  margin-right: 1rem;
+  border: 1px solid #646464;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.SkillsPage .prj-img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
 }
