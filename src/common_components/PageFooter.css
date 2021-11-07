@@ -13,3 +13,10 @@
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
+
+.PageFooter .contact-me-link {
+  font-size: 90%;
+  text-decoration: underline;
+  color: #000;
+  display: inline-block;
+}

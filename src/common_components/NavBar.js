@@ -11,17 +11,17 @@ export const NavBar = () => {
           <div className="col-2 text-center">
             <Link
               className="my-nav-link"
-              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+              to={process.env.REACT_APP_PUBLIC_URL + "/background"}
             >
-              Biography
+              Background
             </Link>
           </div>
           <div className="col-2 text-center">
             <Link
               className="my-nav-link"
-              to={process.env.REACT_APP_PUBLIC_URL + "/skills"}
+              to={process.env.REACT_APP_PUBLIC_URL + "/"}
             >
-              Skills
+              Portfolio
             </Link>
           </div>
           <div className="col-2 text-center">

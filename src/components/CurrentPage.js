@@ -15,17 +15,17 @@ export const CurrentPage = () => {
           <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/resume"}>
             <ResumePage />
           </Route>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/skills"}>
-            <SkillsPage />
+          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/background"}>
+            <HomePage />
           </Route>
           <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/contact"}>
             <ContactPage />
           </Route>
           <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/home"}>
-            <HomePage />
+            <SkillsPage />
           </Route>
           <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/"}>
-            <HomePage />
+            <SkillsPage />
           </Route>
           <Route>
             <h1 className="text-center mt-5">Error 404: Page Not Found</h1>
