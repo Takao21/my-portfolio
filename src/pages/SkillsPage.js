@@ -63,6 +63,13 @@ export const SkillsPage = () => {
               src="https://lastresortwebdesign.com/wp-content/uploads/2018/01/sample-milos.jpg"
               alt=""
             ></img>
+            <div className="card-desc">
+              <h4>Project Title</h4>
+              <p>
+                A very fancy project made for a very interesting topic to share
+                with very amazing people and do very crazy stuff.
+              </p>
+            </div>
           </div>
           <div className="prj-card">
             <img
