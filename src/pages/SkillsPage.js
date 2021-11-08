@@ -1,6 +1,8 @@
 import React from "react";
 import { SkillCard } from "../components/SkillCard";
 import "./SkillsPage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faarro } from "@fortawesome/free-solid-svg-icons";
 import { skills } from "../_fake-api/api_skills";
 
 export const SkillsPage = () => {
@@ -56,6 +58,7 @@ export const SkillsPage = () => {
         <div className="category-title">
           <h3>Personal Projects</h3>
         </div>
+        <hr />
         <div className="prj-cards-container d-flex">
           <div className="prj-card">
             <img
@@ -64,7 +67,10 @@ export const SkillsPage = () => {
               alt=""
             ></img>
             <div className="card-desc">
-              <h4>Project Title</h4>
+              <span className="see-details-btn">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
+              <h4>Smol Title</h4>
               <p>
                 A very fancy project made for a very interesting topic to share
                 with very amazing people and do very crazy stuff.
@@ -77,6 +83,18 @@ export const SkillsPage = () => {
               src="https://34sp.net/img/www/sample-sites/pingcreates.1.jpg"
               alt=""
             ></img>
+            <div className="card-desc">
+              <span className="see-details-btn">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
+              <h4>Project Title</h4>
+              <p>
+                A very fancy project made for a very interesting topic to share
+                with very amazing people and do very crazy stuff. Let me extend
+                this one a bit more than other cards' descriptions so that I can
+                test unique cases of exceptionally lengthy texts on card.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -84,6 +102,7 @@ export const SkillsPage = () => {
         <div className="category-title">
           <h3>Collaboration Projects</h3>
         </div>
+        <hr />
         <div className="prj-cards-container d-flex">
           <div className="prj-card">
             <img
@@ -91,6 +110,16 @@ export const SkillsPage = () => {
               src="https://dynamic.websimages.com/s/themes/refined/v1.25/screenshots/thumb-red.png"
               alt=""
             ></img>
+            <div className="card-desc">
+              <span className="see-details-btn">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
+              <h4>Project Title</h4>
+              <p>
+                A very fancy project made for a very interesting topic to share
+                with very amazing people and do very crazy stuff.
+              </p>
+            </div>
           </div>
           <div className="prj-card">
             <img
@@ -98,6 +127,16 @@ export const SkillsPage = () => {
               src="https://dynamic.websimages.com/s/themes/classy/v1.28/screenshots/thumb-paisley.png"
               alt=""
             ></img>
+            <div className="card-desc">
+              <span className="see-details-btn">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
+              <h4>A Pretty Long Project Title To Test</h4>
+              <p>
+                A very fancy project made for a very interesting topic to share
+                with very amazing people and do very crazy stuff.
+              </p>
+            </div>
           </div>
         </div>
       </div>
