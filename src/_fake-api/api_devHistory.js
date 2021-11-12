@@ -75,6 +75,6 @@ export const devHistory = [
     entry: 13,
     date: "February, 2021",
     story:
-      "Successfully running my start-up while honing my technical skills yet on Feb 2021, the infuriating Myanmar Coup D' Etat happened. My growing start-up was forced to stop and I had to live in a frozen hell of despair to the present day.",
+      "For about half a year, I was successfully running my start-up while honing my technical skills. But on Feb 2021, the infuriating Myanmar Coup D' Etat happened. My growing start-up was forced to stop and I had to live in a frozen hell of despair to the present day.",
   },
 ];
