@@ -49,8 +49,9 @@ export const ProfileHead = ({ apiBasicInfo, apiMediaUrls }) => {
     <div className="ProfileHead">
       <div className="hero-text">
         <p>
-          This is the story of a developer named Aung Kaung Khant also known as
-          Takao.
+          This is the story of a developer named{" "}
+          <span className="highlighted-text">Aung Kaung Khant</span> also known
+          as <span className="highlighted-text">Takao</span>.
         </p>
       </div>
       <div className="hero-img">

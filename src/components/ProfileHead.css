@@ -47,6 +47,10 @@
   background-position: top left;
 }
 
+.ProfileHead .highlighted-text {
+  color: #16f6fe;
+}
+
 .ProfileHead .common-container .image-container {
   width: 200px;
   height: 200px;
