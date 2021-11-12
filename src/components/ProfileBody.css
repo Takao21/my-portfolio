@@ -1,0 +1,17 @@
+.ProfileBody {
+  background-color: #222222;
+  padding: 5rem 1rem;
+}
+
+.ProfileBody .entry {
+  color: rgb(243, 243, 243);
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5rem;
+  font-size: larger;
+}
+
+.ProfileBody .entry-date {
+  font-weight: bold;
+}
