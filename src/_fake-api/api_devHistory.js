@@ -71,4 +71,10 @@ export const devHistory = [
     story:
       "Won a start-up challenge by Phandeeyar, a local innovation center, and co-founded Myan Digital - which helps traditional businesses start online sales and improve work quality with technology. I gained a lot of experience in communication, management, digital marketing, UX Thinking, Graphic Design and many more.",
   },
+  {
+    entry: 13,
+    date: "Feb, 2021",
+    story:
+      "Successfully running my start-up while honing my technical skills yet on Feb 2021, the infuriating Myanmar Coup D' Etat happened. My growing start-up was forced to stop and I had to live in a frozen hell of despair to the present day.",
+  },
 ];
