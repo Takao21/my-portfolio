@@ -22,7 +22,8 @@ export const PageFooter = () => {
       </div>
 
       <p className="mt-3">
-        Portfolio &copy; Aung Kaung Khant (Takao), 2021, All Rights Reserved
+        Portfolio &copy; Aung Kaung Khant (Takao), 2021, Fully Developed By
+        Myself
       </p>
     </div>
   );
