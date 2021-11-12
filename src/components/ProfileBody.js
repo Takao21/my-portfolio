@@ -10,6 +10,15 @@ export const ProfileBody = ({ apiDevHistory: devHistory }) => {
           <p className="entry-story">{data.story}</p>
         </div>
       ))}
+      <div className="meme-section">
+        <img
+          className="honestwork-meme"
+          src={
+            process.env.REACT_APP_PUBLIC_URL + "/pictures/honestworkmeme.jpg"
+          }
+          alt=""
+        ></img>
+      </div>
     </div>
   );
 };

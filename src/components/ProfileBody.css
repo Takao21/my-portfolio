@@ -15,3 +15,11 @@
 .ProfileBody .entry-date {
   font-weight: bold;
 }
+
+.ProfileBody .meme-section {
+  text-align: center;
+}
+
+.ProfileBody .meme-section img {
+  width: 50vw;
+}
