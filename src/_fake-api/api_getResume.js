@@ -3,7 +3,7 @@
 export const resume = {
   name: "Aung Kaung Khant",
   profileDescription:
-    "hello Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat hendrerit nibh ut mattis. Proin maximus hendrerit aliquet. Quisque aliquam erat ut iaculis faucibus. Donec placerat nisi in interdum efficitur. Proin eget sem a leo mollis facilisis quis auctor justo. Fusce bibendum semper mi, eu interdum odio egestas at. Aenean condimentum nisl lacus, vitae porta leo sodales vitae. Cras vitae luctus est, in suscipit erat. Donec ac dignissim diam. Suspendisse potenti. Maecenas elementum purus ac enim sagittis, in pretium velit suscipit.",
+    "A follower of passion. Mostly a self-taught student in Web Development and Programming. His hobby of playing and creating video games in free time made him become very natural in engaging with computer technologies. Has an excellent educational background in Mathematics and possesses great problem-solving skills. His most valuable asset might be that most things he is good at were trained all by his own motivation and studies, which make him an adaptable and critically thoughtful learner.",
   workHistory: [
     {
       index: 3, //  larger index = more recent in chronological order
