@@ -17,7 +17,7 @@ export const ResumePage = () => {
         alt=""
       />
       <div className="resume-name-div container-fluid mt-3">
-        <h1>{api_getResume.name}</h1>
+        <p>{api_getResume.name}</p>
       </div>
       <hr />
       <div className="resume-body-wrapper container-fluid">
