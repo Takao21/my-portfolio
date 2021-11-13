@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export const NavBar = () => {
   return (
@@ -11,17 +13,17 @@ export const NavBar = () => {
           <div className="col-2 text-center">
             <Link
               className="my-nav-link"
-              to={process.env.REACT_APP_PUBLIC_URL + "/background"}
+              to={process.env.REACT_APP_PUBLIC_URL + "/"}
             >
-              Background
+              <FontAwesomeIcon icon={faHome} /> Portfolio
             </Link>
           </div>
           <div className="col-2 text-center">
             <Link
               className="my-nav-link"
-              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+              to={process.env.REACT_APP_PUBLIC_URL + "/background"}
             >
-              Portfolio
+              Background
             </Link>
           </div>
           <div className="col-2 text-center">
