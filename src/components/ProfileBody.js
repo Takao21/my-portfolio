@@ -6,13 +6,17 @@ export const ProfileBody = ({ apiDevHistory: devHistory }) => {
   const [entries, setEntries] = useState([]);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const scrollCheck = () => {
       // update scrollPos whenever window is scrolled
       const winScroll = window.scrollY;
       setScrollPos(winScroll);
-    });
+    };
+    window.addEventListener("scroll", scrollCheck);
     const entriesArr = document.getElementsByClassName("entry"); // collect entries that are to be animated on scroll
     setEntries(entriesArr);
+    return () => {
+      window.removeEventListener("scroll", scrollCheck);
+    };
   }, []);
 
   useEffect(() => {
