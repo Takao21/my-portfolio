@@ -42,7 +42,7 @@ export const NavBar = ({ activePage, setActivePage }) => {
               onClick={() => setActivePage("/")}
               to={"/"}
             >
-              <img className="nav-logo" src={"/pictures/logo.png"} alt="" />
+              <img className="nav-logo" src="/pictures/logo.png" alt="" />
             </Link>
           </div>
           <div className="col-2 text-center">

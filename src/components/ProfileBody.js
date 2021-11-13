@@ -45,9 +45,7 @@ export const ProfileBody = ({ apiDevHistory: devHistory }) => {
       <div className="meme-section">
         <img
           className="honestwork-meme"
-          src={
-            process.env.REACT_APP_PUBLIC_URL + "/pictures/honestworkmeme.jpg"
-          }
+          src="/pictures/honestworkmeme.jpg"
           alt=""
         ></img>
       </div>

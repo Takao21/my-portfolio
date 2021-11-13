@@ -13,11 +13,7 @@ export const ResumePage = () => {
 
   return (
     <div className="ResumePage">
-      <img
-        className="bg-sprite"
-        src={process.env.REACT_APP_PUBLIC_URL + "/pictures/hacker_sprite.png"}
-        alt=""
-      />
+      <img className="bg-sprite" src="/pictures/hacker_sprite.png" alt="" />
       <div className="resume-name-div container-fluid mt-3">
         <p>{api_getResume.name}</p>
       </div>
