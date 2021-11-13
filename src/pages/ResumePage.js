@@ -4,6 +4,8 @@ import { resume } from "../_fake-api/api_getResume";
 import { ResumeProfile } from "../components/ResumeProfile";
 import { ResumeWorkHistory } from "../components/ResumeWorkHistory";
 import { ResumeEducation } from "../components/ResumeEducation";
+import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ResumePage = () => {
   // placeholder API
@@ -34,17 +36,27 @@ export const ResumePage = () => {
 
           <div className="resume-body-side col-3">
             <div className="contact-section">
-              <h2 className="resumeside-title">Contact</h2>
+              <p className="resumeside-title">Contact</p>
               <p>
                 {/* eslint-disable-next-line */}
+                <FontAwesomeIcon
+                  className="resumeside-icon"
+                  icon={faEnvelope}
+                />
                 dragon.takao21@gmail.com
               </p>
-              <p>+95 9 95 550 1280</p>
+              <p>
+                <FontAwesomeIcon
+                  className="resumeside-icon"
+                  icon={faPhoneAlt}
+                />
+                +95 9 95 550 1280
+              </p>
             </div>
             <hr />
 
             <div className="skills-section">
-              <h2 className="resumeside-title">Skills</h2>
+              <p className="resumeside-title">Skills</p>
               <ul>
                 <li>HTML, CSS, JavaScript</li>
                 <li>React.js</li>
@@ -55,7 +67,7 @@ export const ResumePage = () => {
             <hr />
 
             <div className="languages-section">
-              <h2 className="resumeside-title">Languages</h2>
+              <p className="resumeside-title">Languages</p>
               <ul>
                 <li>Burmese</li>
                 <li>English</li>

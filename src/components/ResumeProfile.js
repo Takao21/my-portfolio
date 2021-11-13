@@ -6,9 +6,9 @@ import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 export const ResumeProfile = ({ profileDescription }) => {
   return (
     <div className="ResumeProfile subsection profile-section">
-      <h2 className="section-title">
+      <p className="section-title">
         <FontAwesomeIcon icon={faUserCircle} /> Profile
-      </h2>
+      </p>
       <p>{profileDescription}</p>
     </div>
   );

@@ -1,9 +1,9 @@
 //  some common API weak points are added here on purpose
 //  handled them on the front end to show my API knowledge
 export const resume = {
-  name: "Aung Kaung Khant",
+  name: "Aung Kaung Khant (Takao)",
   profileDescription:
-    "A follower of passion. Mostly a self-taught student in Web Development and Programming. His hobby of playing and creating video games in free time made him become very natural in engaging with computer technologies. Has an excellent educational background in Mathematics and possesses great problem-solving skills. His most valuable asset might be that most things he is good at were trained all by his own motivation and studies, which make him an adaptable and critically thoughtful learner.",
+    "A follower of passion from Myanmar, a third-world country. Mostly a self-taught student in Web Development and Programming. His hobby of playing and creating video games in free time made him become very natural in engaging with computer technologies. Has an excellent educational background in Mathematics and possesses great problem-solving skills. His most valuable asset might be that most things he is good at were trained all by his own motivation and studies, which make him an adaptable and critically thoughtful learner.",
   workHistory: [
     {
       index: 3, //  larger index = more recent in chronological order

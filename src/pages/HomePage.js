@@ -1,6 +1,4 @@
 import React from "react";
-import { ProfileAbout } from "../components/ProfileAbout";
-import { ProfileBio } from "../components/ProfileBio";
 import { ProfileBody } from "../components/ProfileBody";
 import { ProfileHead } from "../components/ProfileHead";
 import { devHistory } from "../_fake-api/api_devHistory";
@@ -16,8 +14,6 @@ export const HomePage = () => {
   return (
     <div className="HomePage">
       <ProfileHead apiBasicInfo={apiBasicInfo} apiMediaUrls={apiMediaUrls} />
-      {/* <ProfileAbout about={apiBasicInfo.about} />
-      <ProfileBio apiMediaUrls={apiMediaUrls} /> */}
       <ProfileBody apiDevHistory={apiDevHistory} />
     </div>
   );
