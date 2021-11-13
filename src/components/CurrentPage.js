@@ -12,19 +12,19 @@ export const CurrentPage = () => {
     <div className="CurrentPage">
       <ScrollToTop>
         <Switch>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/resume"}>
+          <Route exact path={"/resume"}>
             <ResumePage />
           </Route>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/background"}>
+          <Route exact path={"/background"}>
             <HomePage />
           </Route>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/contact"}>
+          <Route exact path={"/contact"}>
             <ContactPage />
           </Route>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/home"}>
+          <Route exact path={"/home"}>
             <SkillsPage />
           </Route>
-          <Route exact path={process.env.REACT_APP_PUBLIC_URL + "/"}>
+          <Route exact path={"/"}>
             <SkillsPage />
           </Route>
           <Route>

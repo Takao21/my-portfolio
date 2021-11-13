@@ -18,7 +18,7 @@ export const NavBar = ({ activePage, setActivePage }) => {
                   : "my-nav-link"
               }
               onClick={() => setActivePage("/")}
-              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+              to={"/"}
             >
               <FontAwesomeIcon icon={faHome} /> Portfolio
             </Link>
@@ -31,7 +31,7 @@ export const NavBar = ({ activePage, setActivePage }) => {
                   : "my-nav-link"
               }
               onClick={() => setActivePage("/background")}
-              to={process.env.REACT_APP_PUBLIC_URL + "/background"}
+              to={"/background"}
             >
               Background
             </Link>
@@ -40,13 +40,9 @@ export const NavBar = ({ activePage, setActivePage }) => {
             <Link
               className="logo-link"
               onClick={() => setActivePage("/")}
-              to={process.env.REACT_APP_PUBLIC_URL + "/"}
+              to={"/"}
             >
-              <img
-                className="nav-logo"
-                src={process.env.REACT_APP_PUBLIC_URL + "/pictures/logo.png"}
-                alt=""
-              />
+              <img className="nav-logo" src={"/pictures/logo.png"} alt="" />
             </Link>
           </div>
           <div className="col-2 text-center">
@@ -57,7 +53,7 @@ export const NavBar = ({ activePage, setActivePage }) => {
                   : "my-nav-link"
               }
               onClick={() => setActivePage("/resume")}
-              to={process.env.REACT_APP_PUBLIC_URL + "/resume"}
+              to={"/resume"}
             >
               Résumé
             </Link>
@@ -70,7 +66,7 @@ export const NavBar = ({ activePage, setActivePage }) => {
                   : "my-nav-link"
               }
               onClick={() => setActivePage("/contact")}
-              to={process.env.REACT_APP_PUBLIC_URL + "/contact"}
+              to={"/contact"}
             >
               Contact
             </Link>
