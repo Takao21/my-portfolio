@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./PageFooter.css";
 
-export const PageFooter = () => {
+export const PageFooter = ({ setActivePage }) => {
   return (
     <div className="PageFooter text-center">
       <div className="links-row text-center">
         <Link
           className="contact-me-link"
+          onClick={() => setActivePage("/resume")}
           to={process.env.REACT_APP_PUBLIC_URL + "/resume"}
         >
           Go To Résumé
@@ -15,6 +16,7 @@ export const PageFooter = () => {
         <span className="mx-5">|</span>
         <Link
           className="contact-me-link"
+          onClick={() => setActivePage("/contact")}
           to={process.env.REACT_APP_PUBLIC_URL + "/contact"}
         >
           Contact Me

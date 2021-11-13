@@ -37,7 +37,7 @@ function App() {
           <NavBar activePage={activePage} setActivePage={setActivePage} />
         )}
         {!overlayActive && <CurrentPage />}
-        {!overlayActive && <PageFooter />}
+        {!overlayActive && <PageFooter setActivePage={setActivePage} />}
         {!overlayActive && scrolled && <ScrollTopButton />}
       </div>
     </Router>
