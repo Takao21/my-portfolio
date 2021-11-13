@@ -9,7 +9,7 @@ export const PageFooter = ({ setActivePage }) => {
         <Link
           className="contact-me-link"
           onClick={() => setActivePage("/resume")}
-          to={process.env.REACT_APP_PUBLIC_URL + "/resume"}
+          to="/resume"
         >
           Go To Résumé
         </Link>
@@ -17,7 +17,7 @@ export const PageFooter = ({ setActivePage }) => {
         <Link
           className="contact-me-link"
           onClick={() => setActivePage("/contact")}
-          to={process.env.REACT_APP_PUBLIC_URL + "/contact"}
+          to="/contact"
         >
           Contact Me
         </Link>
