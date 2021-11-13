@@ -10,6 +10,7 @@ import { CurrentPage } from "./components/CurrentPage";
 function App() {
   const [overlayActive, setOverlayActive] = useState(false); // !!! Set default to true and edit css for document scroll if you use the overlay intro
   const [scrolled, setScrolled] = useState(false);
+  const [activePage, setActivePage] = useState("/");
 
   /*Logic to show ScrollTopButton if document is scrolled. */
   useEffect(() => {
@@ -23,12 +24,18 @@ function App() {
     });
   }, []);
 
+  useEffect(() => {
+    setActivePage("/");
+  }, []);
+
   return (
     <Router>
       {console.log("The document is at top: ", !scrolled)}
       <div className="App">
         {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
-        {!overlayActive && <NavBar />}
+        {!overlayActive && (
+          <NavBar activePage={activePage} setActivePage={setActivePage} />
+        )}
         {!overlayActive && <CurrentPage />}
         {!overlayActive && <PageFooter />}
         {!overlayActive && scrolled && <ScrollTopButton />}

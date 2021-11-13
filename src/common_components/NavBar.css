@@ -31,6 +31,10 @@
   vertical-align: center;
 }
 
+.NavBar .active-nav-link {
+  border-bottom: 0.2rem solid #252525;
+}
+
 .NavBar .desktop-nav .row .col-2:nth-child(1) .my-nav-link:hover {
   border-bottom: 0.2rem solid #a1d0ff;
 }

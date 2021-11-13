@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 
-export const NavBar = () => {
+export const NavBar = ({ activePage, setActivePage }) => {
   return (
     <div className="NavBar">
       {/* DeskTop View */}
@@ -12,7 +12,12 @@ export const NavBar = () => {
         <div className="row justify-content-around">
           <div className="col-2 text-center">
             <Link
-              className="my-nav-link"
+              className={
+                activePage === "/"
+                  ? "my-nav-link active-nav-link"
+                  : "my-nav-link"
+              }
+              onClick={() => setActivePage("/")}
               to={process.env.REACT_APP_PUBLIC_URL + "/"}
             >
               <FontAwesomeIcon icon={faHome} /> Portfolio
@@ -20,7 +25,12 @@ export const NavBar = () => {
           </div>
           <div className="col-2 text-center">
             <Link
-              className="my-nav-link"
+              className={
+                activePage === "/background"
+                  ? "my-nav-link active-nav-link"
+                  : "my-nav-link"
+              }
+              onClick={() => setActivePage("/background")}
               to={process.env.REACT_APP_PUBLIC_URL + "/background"}
             >
               Background
@@ -29,6 +39,7 @@ export const NavBar = () => {
           <div className="col-2 text-center">
             <Link
               className="logo-link"
+              onClick={() => setActivePage("/")}
               to={process.env.REACT_APP_PUBLIC_URL + "/"}
             >
               <img
@@ -40,7 +51,12 @@ export const NavBar = () => {
           </div>
           <div className="col-2 text-center">
             <Link
-              className="my-nav-link"
+              className={
+                activePage === "/resume"
+                  ? "my-nav-link active-nav-link"
+                  : "my-nav-link"
+              }
+              onClick={() => setActivePage("/resume")}
               to={process.env.REACT_APP_PUBLIC_URL + "/resume"}
             >
               Résumé
@@ -48,7 +64,12 @@ export const NavBar = () => {
           </div>
           <div className="col-2 text-center">
             <Link
-              className="my-nav-link"
+              className={
+                activePage === "/contact"
+                  ? "my-nav-link active-nav-link"
+                  : "my-nav-link"
+              }
+              onClick={() => setActivePage("/contact")}
               to={process.env.REACT_APP_PUBLIC_URL + "/contact"}
             >
               Contact
