@@ -25,7 +25,9 @@ function App() {
   }, []);
 
   useEffect(() => {
-    setActivePage("/");
+    const temp = window.location.pathname.split("/");
+    const currentPath = "/" + temp[temp.length - 1];
+    setActivePage(currentPath);
   }, []);
 
   return (

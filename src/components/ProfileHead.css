@@ -13,12 +13,12 @@
   z-index: -1;
 }
 
-@keyframes slideInFromLeft {
+@keyframes fadeIn {
   0% {
-    transform: scaleX(0) translateY(-50%);
+    opacity: 0;
   }
   100% {
-    transform: scaleX(1) translateY(-50%);
+    opacity: 1;
   }
 }
 
@@ -32,11 +32,12 @@
   width: 50vw;
   margin-left: 2rem;
   top: 50%;
-  transform: scaleX(0) translateY(-50%);
+  opacity: 0;
+  transform: translateY(-50%);
   transform-origin: left;
   border-left: 1rem solid #fff;
   padding-left: 1rem;
-  animation: slideInFromLeft 0.5s linear 0.5s;
+  animation: fadeIn 1s linear 0.5s;
   animation-fill-mode: forwards;
 }
 
