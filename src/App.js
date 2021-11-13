@@ -30,7 +30,6 @@ function App() {
 
   return (
     <Router>
-      {console.log("The document is at top: ", !scrolled)}
       <div className="App">
         {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
         {!overlayActive && (
