@@ -55,7 +55,7 @@ export const resume = {
       toDate: "May 2018",
       notes: [
         //  unusual extra data condition
-        "Dropped out after the foundation year to pursue career and passion.",
+        // "Dropped out after the foundation year to pursue career and passion.",
       ],
     },
     {
