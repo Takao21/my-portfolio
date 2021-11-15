@@ -3,7 +3,7 @@
 export const resume = {
   name: "Aung Kaung Khant (Takao)",
   profileDescription:
-    "A follower of passion from Myanmar, a third-world country. Mostly a self-taught student in Web Development and Programming. His hobby of playing and creating video games in free time made him become very natural in engaging with computer technologies. Has an excellent educational background in Mathematics and possesses great problem-solving skills. His most valuable asset might be that most things he is good at were trained all by his own motivation and studies, which make him an adaptable and critically thoughtful learner.",
+    "Self-taught and well-trained passionate developer from Myanmar. My hobby of playing and creating video games in free time made me naturally tech-savvy. I have a solid educational background in Mathematics and exceptional problem-solving skills. I've always been fascinated by computer technologies and how they can make people's lives more convenient or fun. My experience of self-learning and teaching people has grown me into an adaptable learner. Currently interested to work fully remote as a front-end developer, a similar position or in a company revolving around that field.",
   workHistory: [
     {
       index: 3, //  larger index = more recent in chronological order

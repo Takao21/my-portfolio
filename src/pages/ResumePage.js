@@ -19,8 +19,8 @@ export const ResumePage = () => {
       </div>
       <hr />
       <div className="resume-body-wrapper container-fluid">
-        <div className="row body-flex-container">
-          <div className="resume-body-main col-9">
+        <div className="row body-flex-container justify-content-between">
+          <div className="resume-body-main col-8">
             <ResumeProfile
               profileDescription={api_getResume.profileDescription}
             />
