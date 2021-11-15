@@ -21,9 +21,13 @@ export const ContactPage = () => {
             </h2>
             <p>+95 9 95 550 1280</p>
             <a href="tel:+959955501280">
-              <p className="action-btn">Call Now</p>
+              <p className="action-btn">
+                Call Now
+                <span className="action-note">
+                  May not be available sometimes.
+                </span>
+              </p>
             </a>
-            <p className="action-note">May not be available sometimes.</p>
           </div>
           <div className="col-3 contact-card contact-email">
             <h2>
@@ -31,9 +35,13 @@ export const ContactPage = () => {
             </h2>
             <p>dragon.takao21@gmail.com</p>
             <a href="mailto:dragon.takao21@gmail.com">
-              <p className="action-btn">Send Email</p>
+              <p className="action-btn">
+                Send Email
+                <span className="action-note">
+                  You will open your mailing software.
+                </span>
+              </p>
             </a>
-            <p className="action-note">You will open your mailing software.</p>
           </div>
           <div className="col-3 contact-card contact-socialmedia">
             <h2>
@@ -45,9 +53,11 @@ export const ContactPage = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p className="action-btn">Go To Profile</p>
+              <p className="action-btn">
+                Go To Profile
+                <span className="action-note">A new tab will be opened.</span>
+              </p>
             </a>
-            <p className="action-note">A new tab will be opened.</p>
           </div>
         </div>
       </div>
