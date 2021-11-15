@@ -1,13 +1,3 @@
-/* .ResumePage .resume-body-side {
-  background-color: aquamarine;
-  height: 400px;
-}
-
-.ResumePage .resume-body-main {
-  background-color: rgb(236, 255, 127);
-  height: 400px;
-} */
-
 .ResumePage {
   padding-right: 2rem;
   background-color: #222222;
@@ -76,6 +66,7 @@
 .ResumePage .section-title,
 .ResumePage .resume-body-side {
   background-color: #a367db;
+  /* background-color: #12adff; */
 }
 
 .ResumePage .resumeside-title {

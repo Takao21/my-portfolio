@@ -10,7 +10,7 @@ export const ContactPage = () => {
       <div className="contact-head">
         <div className="colorful-shade"></div>
         <h1 className="contact-head-text">
-          If you want to contact me for work, please use the following ...
+          If you want to contact me for work, please use these options ...
         </h1>
       </div>
       <div className="contact-body container-fluid text-center">
