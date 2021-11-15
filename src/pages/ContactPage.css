@@ -31,11 +31,17 @@
   transform: translateY(-50%);
 }
 
+.ContactPage .contact-card h2,
+.ContactPage .contact-card .action-btn {
+  font-family: "Source Serif Pro", serif !important;
+}
+
 .ContactPage .contact-card p {
   font-size: 1rem;
 }
 
 .ContactPage .contact-card .action-btn {
+  font-weight: bold;
   display: inline-block;
   margin-top: 1rem auto;
   background-color: #12adff;
@@ -44,17 +50,17 @@
   word-wrap: break-word;
   border-radius: 1rem;
   padding: 0.5rem 0;
-  font-family: sans-serif;
-  font-weight: 600;
   text-decoration: none;
 }
 
 .ContactPage .action-btn:hover {
   background-color: #87dde4;
+  color: #222;
 }
 
 .ContactPage .action-note {
   font-family: sans-serif;
+  color: #a367db;
 }
 
 .ContactPage .contact-tail {
