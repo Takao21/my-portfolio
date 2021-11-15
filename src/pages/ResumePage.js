@@ -14,7 +14,7 @@ export const ResumePage = () => {
   return (
     <div className="ResumePage">
       <img className="bg-sprite" src="/pictures/hacker_sprite.png" alt="" />
-      <div className="resume-name-div container-fluid mt-3">
+      <div className="resume-name-div container-fluid pt-3">
         <p>{api_getResume.name}</p>
       </div>
       <hr />
