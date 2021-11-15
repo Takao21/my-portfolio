@@ -15,20 +15,6 @@ export const ContactPage = () => {
       </div>
       <div className="contact-body container-fluid text-center">
         <div className="row justify-content-around">
-          <div className="col-3 contact-card contact-phone">
-            <h2>
-              <FontAwesomeIcon icon={faPhoneAlt} /> Phone
-            </h2>
-            <p>+95 9 95 550 1280</p>
-            <a href="tel:+959955501280">
-              <p className="action-btn">
-                Call Now
-                <span className="action-note">
-                  May not be available sometimes.
-                </span>
-              </p>
-            </a>
-          </div>
           <div className="col-3 contact-card contact-email">
             <h2>
               <FontAwesomeIcon icon={faEnvelope} /> Email
@@ -56,6 +42,20 @@ export const ContactPage = () => {
               <p className="action-btn">
                 Go To Profile
                 <span className="action-note">A new tab will be opened.</span>
+              </p>
+            </a>
+          </div>
+          <div className="col-3 contact-card contact-phone">
+            <h2>
+              <FontAwesomeIcon icon={faPhoneAlt} /> Phone
+            </h2>
+            <p>+95 9 95 550 1280</p>
+            <a href="tel:+959955501280">
+              <p className="action-btn">
+                Call Now
+                <span className="action-note">
+                  Please use this only when other options are unreachable.
+                </span>
               </p>
             </a>
           </div>

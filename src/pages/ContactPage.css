@@ -31,8 +31,7 @@
   transform: translateY(-50%);
 }
 
-.ContactPage .contact-card h2,
-.ContactPage .contact-card .action-btn {
+.ContactPage .contact-card h2 {
   font-family: "Source Serif Pro", serif !important;
 }
 
@@ -41,11 +40,12 @@
 }
 
 .ContactPage .contact-card .action-btn {
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 1.2rem;
   display: inline-block;
   margin-top: 1rem auto;
   background-color: #12adff;
-  color: #161616;
+  color: #222;
   width: 75%;
   word-wrap: break-word;
   border-radius: 1rem;
@@ -54,10 +54,13 @@
   position: relative;
 }
 
+.ContactPage .contact-card .action-btn:hover {
+  filter: contrast(1.5);
+}
+
 .ContactPage .action-note {
   pointer-events: none;
   width: 100%;
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 0.85rem;
   background-color: #161616;
@@ -91,10 +94,9 @@
 }
 
 .ContactPage .contact-tail {
+  font-family: "Source Serif Pro", serif;
   margin-bottom: 4rem;
   font-weight: bolder;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*Fancy Word Colors*/
