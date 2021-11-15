@@ -65,8 +65,9 @@
 
 .ResumePage .section-title,
 .ResumePage .resume-body-side {
-  background-color: #a367db;
-  /* background-color: #12adff; */
+  /* background-color: #a367db; */
+  background-color: #12adff;
+  color: #222;
 }
 
 .ResumePage .resumeside-title {

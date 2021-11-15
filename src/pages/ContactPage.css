@@ -32,7 +32,29 @@
 }
 
 .ContactPage .contact-card p {
-  font-size: larger;
+  font-size: 1rem;
+}
+
+.ContactPage .contact-card .action-btn {
+  display: inline-block;
+  margin-top: 1rem auto;
+  background-color: #12adff;
+  color: #161616;
+  width: 75%;
+  word-wrap: break-word;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ContactPage .action-btn:hover {
+  background-color: #87dde4;
+}
+
+.ContactPage .action-note {
+  font-family: sans-serif;
 }
 
 .ContactPage .contact-tail {

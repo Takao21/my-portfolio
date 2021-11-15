@@ -20,26 +20,34 @@ export const ContactPage = () => {
               <FontAwesomeIcon icon={faPhoneAlt} /> Phone
             </h2>
             <p>+95 9 95 550 1280</p>
+            <a href="tel:+959955501280">
+              <p className="action-btn">Call Now</p>
+            </a>
+            <p className="action-note">May not be available sometimes.</p>
           </div>
           <div className="col-3 contact-card contact-email">
             <h2>
               <FontAwesomeIcon icon={faEnvelope} /> Email
             </h2>
             <p>dragon.takao21@gmail.com</p>
+            <a href="mailto:dragon.takao21@gmail.com">
+              <p className="action-btn">Send Email</p>
+            </a>
+            <p className="action-note">You will open your mailing software.</p>
           </div>
           <div className="col-3 contact-card contact-socialmedia">
             <h2>
               <FontAwesomeIcon icon={faLinkedin} /> Linkedin
             </h2>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/takao21"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Go To Profile</strong>
-              </a>
-            </p>
+            <p>Aung Kaung Khant</p>
+            <a
+              href="https://www.linkedin.com/in/takao21"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="action-btn">Go To Profile</p>
+            </a>
+            <p className="action-note">A new tab will be opened.</p>
           </div>
         </div>
       </div>
