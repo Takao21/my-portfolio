@@ -13,8 +13,8 @@ export const resume = {
       fromDate: "August 2020",
       toDate: "", // empty data condition
       highlights: [
-        "Founded through start-up acceleration by winning the Doh Phandee Back To Business challenge",
-        "An organization with visions for fully digitized shops and businesses in Myanmar",
+        "Experience as an entrepreneur",
+        "Founded through start-up acceleration challenge winner's prize at Phandeeyar",
         "Played versatile roles in a team of 4 founders and surpassed the start-up sustainability milestones set by the accelerators",
       ],
     },
@@ -33,13 +33,13 @@ export const resume = {
     },
     {
       index: 1,
-      position: "Asst. Tutor/Teacher",
+      position: "Teaching Assistant",
       company: "Tr. Daw Nwe Ni Private Tuition",
       location: "Yangon",
       fromDate: "May 2017",
       toDate: "Sep 2017",
       highlights: [
-        "Joined as a part-timer and alumni after the matriculation exam",
+        "A former student and joined as a part-timer after the matriculation exam",
         "A good experience of teaching students of different learning capabilities and interests",
         "First self-earned income in life",
       ],
