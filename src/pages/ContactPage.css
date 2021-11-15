@@ -9,7 +9,8 @@
   height: 100%;
   position: absolute;
   z-index: 100;
-  background: linear-gradient(45deg, #a1d0ff, #3dff91, #f8adff);
+  background: linear-gradient(90deg, #12adff, #16f6fe 65%, #12adff);
+  color: #16f6fe;
   opacity: 0.4;
 }
 
@@ -20,7 +21,7 @@
 
 .ContactPage .contact-card {
   padding: 5rem 2rem;
-  border-bottom: 1rem solid #3dff91;
+  border-bottom: 1rem solid #12adff;
   /*The following line clips the bottom border size out*/
   padding-bottom: calc(5rem - 1rem);
   background-color: #f2f2f2;
@@ -44,7 +45,7 @@
 /*Fancy Word Colors*/
 
 .ContactPage .tail-word-1 {
-  color: #a1d0ff;
+  color: #16f6fe;
 }
 
 .ContactPage .tail-word-2 {
