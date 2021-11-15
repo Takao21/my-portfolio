@@ -31,6 +31,24 @@ export const ResumePage = () => {
           </div>
 
           <div className="resume-body-side col-3">
+            <div className="skills-section">
+              <p className="resumeside-title">Skills</p>
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js</li>
+                <li>Critical Thinking</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+            <hr />
+            <div className="languages-section">
+              <p className="resumeside-title">Languages</p>
+              <ul>
+                <li>Burmese</li>
+                <li>English</li>
+              </ul>
+            </div>
+            <hr />
             <div className="contact-section">
               <p className="resumeside-title">Contact</p>
               <p>
@@ -48,26 +66,6 @@ export const ResumePage = () => {
                 />
                 +95 9 95 550 1280
               </p>
-            </div>
-            <hr />
-
-            <div className="skills-section">
-              <p className="resumeside-title">Skills</p>
-              <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React.js</li>
-                <li>Critical Thinking</li>
-                <li>Problem Solving</li>
-              </ul>
-            </div>
-            <hr />
-
-            <div className="languages-section">
-              <p className="resumeside-title">Languages</p>
-              <ul>
-                <li>Burmese</li>
-                <li>English</li>
-              </ul>
             </div>
           </div>
         </div>

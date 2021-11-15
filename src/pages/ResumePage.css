@@ -80,3 +80,17 @@
 .ResumePage .resumeside-icon {
   margin-right: 0.5rem;
 }
+
+.ResumePage .contact-section {
+  padding-bottom: 1rem;
+}
+
+.ResumePage .contact-section p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.ResumePage .contact-section p:first-child {
+  margin-left: 0;
+  margin-bottom: 8px;
+}
