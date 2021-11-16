@@ -68,7 +68,7 @@
 
 .NavBar .menu-layer {
   font-family: "Source Serif Pro", serif;
-  padding: 1rem;
+  padding: 2rem;
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   top: 0;
@@ -78,7 +78,23 @@
   box-shadow: -1px 0px 2px #000;
 }
 
-.NavBar .menu-layer .close-menu-button {
+.NavBar .menu-layer .close-menu-container {
   font-size: 2rem;
-  text-align: right;
+  margin-left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+}
+
+.NavBar .menu-layer p {
+  width: fit-content;
+}
+
+.NavBar .toggle-menu-button {
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .NavBar {
+    font-size: 1.2rem;
+  }
 }

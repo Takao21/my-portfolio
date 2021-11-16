@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +9,18 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
+  useEffect(() => {
+    const menu = document.getElementsByClassName("menu-layer")[0];
+    menu &&
+      menu.addEventListener("click", (e) => {
+        const target = e.target.className;
+        console.log("The target class name is ", target);
+        if (target === "menu-layer") {
+          e.stopPropagation();
+        }
+      });
+  }, [openNav]);
+
   return (
     <div className="NavBar">
       {/* DeskTop View */}
@@ -77,6 +89,8 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
           </div>
         </div>
       </div>
+
+      {/* Mobile View */}
       <div className="d-block d-md-none mobile-nav container-fluid">
         <Link className="nav-logo" to="/">
           <img className="nav-logo" src="/pictures/logo.png" alt="" />
@@ -86,8 +100,13 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
         </span>
         {openNav && (
           <div className="menu-layer">
-            <p className="close-menu-button" onClick={() => setOpenNav(false)}>
-              <FontAwesomeIcon icon={faSignOutAlt} />
+            <p className="close-menu-container">
+              <span
+                className="close-menu-button"
+                onClick={() => setOpenNav(false)}
+              >
+                <FontAwesomeIcon icon={faSignOutAlt} />
+              </span>
             </p>
             <p>
               <Link
