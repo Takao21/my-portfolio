@@ -70,7 +70,7 @@ export const SkillsPage = () => {
               <span className="see-details-btn">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-              <h4>Smol Title</h4>
+              <p className="card-title">Smol Title</p>
               <p>
                 A very fancy project made for a very interesting topic to share
                 with very amazing people and do very crazy stuff.
@@ -87,7 +87,7 @@ export const SkillsPage = () => {
               <span className="see-details-btn">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-              <h4>Project Title</h4>
+              <p className="card-title">Project Title</p>
               <p>
                 A very fancy project made for a very interesting topic to share
                 with very amazing people and do very crazy stuff. Let me extend
@@ -114,7 +114,7 @@ export const SkillsPage = () => {
               <span className="see-details-btn">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-              <h4>Project Title</h4>
+              <p className="card-title">Project Title</p>
               <p>
                 A very fancy project made for a very interesting topic to share
                 with very amazing people and do very crazy stuff.
@@ -131,7 +131,7 @@ export const SkillsPage = () => {
               <span className="see-details-btn">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-              <h4>A Pretty Long Project Title To Test</h4>
+              <p className="card-title">A Pretty Long Project Title To Test</p>
               <p>
                 A very fancy project made for a very interesting topic to share
                 with very amazing people and do very crazy stuff.

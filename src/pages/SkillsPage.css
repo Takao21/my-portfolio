@@ -144,8 +144,24 @@
   margin-bottom: 4rem;
 }
 
+.SkillsPage .projects-div .prj-cards-container {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  overflow-y: auto;
+}
+
+.SkillsPage .projects-div .prj-cards-container::-webkit-scrollbar {
+  background: transparent;
+  height: 5px;
+}
+
+.SkillsPage .projects-div .prj-cards-container::-webkit-scrollbar-thumb {
+  background: #4e4e4e;
+  border-radius: 1rem;
+}
+
 .SkillsPage .prj-card {
-  width: 20rem;
+  min-width: 20rem;
   height: 15rem;
   position: relative;
   cursor: pointer;
@@ -154,6 +170,12 @@
   border-radius: 0.3rem;
   box-shadow: 0px 1px 1px 1px #111;
   overflow: hidden;
+}
+
+.SkillsPage .prj-card .card-title {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .SkillsPage .prj-card .see-details-btn {
