@@ -15,7 +15,7 @@ export const ContactPage = () => {
       </div>
       <div className="contact-body container-fluid text-center">
         <div className="row justify-content-around">
-          <div className="col-3 contact-card contact-email">
+          <div className="col-11 col-md-3 contact-card contact-email">
             <h2>
               <FontAwesomeIcon icon={faEnvelope} /> Email
             </h2>
@@ -29,7 +29,7 @@ export const ContactPage = () => {
               </p>
             </a>
           </div>
-          <div className="col-3 contact-card contact-socialmedia">
+          <div className="col-11 col-md-3 contact-card contact-socialmedia">
             <h2>
               <FontAwesomeIcon icon={faLinkedin} /> Linkedin
             </h2>
@@ -45,7 +45,7 @@ export const ContactPage = () => {
               </p>
             </a>
           </div>
-          <div className="col-3 contact-card contact-phone">
+          <div className="col-11 col-md-3 contact-card contact-phone">
             <h2>
               <FontAwesomeIcon icon={faPhoneAlt} /> Phone
             </h2>

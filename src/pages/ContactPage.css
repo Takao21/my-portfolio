@@ -15,7 +15,7 @@
 }
 
 .ContactPage .contact-head-text {
-  line-height: 25vh;
+  padding-top: calc(25vh - 4rem);
   text-align: center;
 }
 
@@ -115,4 +115,30 @@
 
 .ContactPage .tail-word-4 {
   color: #f8adff;
+}
+
+@media (max-width: 991.98px) {
+  .ContactPage .contact-head {
+    height: 12rem;
+  }
+  .ContactPage .contact-head-text {
+    padding-top: calc(6rem + 2.2rem);
+    transform: none;
+    font-size: 1.2rem !important;
+    line-height: 2rem;
+    padding: 2rem;
+  }
+  .ContactPage .contact-body {
+    padding: 1rem;
+  }
+  .ContactPage .contact-card {
+    transform: translateY(0);
+    margin: 1rem 0;
+  }
+  .ContactPage .contact-card h2 {
+    font-size: 1.2rem !important;
+  }
+  .ContactPage .contact-card .action-btn {
+    font-size: 1rem;
+  }
 }
