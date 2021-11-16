@@ -55,7 +55,7 @@ export const ProfileHead = ({ apiBasicInfo, apiMediaUrls }) => {
         </p>
       </div>
       <div className="hero-img">
-        <img src="/pictures/kayaba_akihiko.jpg" alt=""></img>
+        {/* <img src="/pictures/kayaba_akihiko.jpg" alt=""></img> */}
       </div>
     </div>
   );
