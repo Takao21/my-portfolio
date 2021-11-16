@@ -32,7 +32,8 @@ function App() {
 
   return (
     <Router>
-      <div className="d-none d-lg-block App">
+      {/* <div className="d-none d-lg-block App"> */}
+      <div className="App">
         {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
         {!overlayActive && (
           <NavBar activePage={activePage} setActivePage={setActivePage} />
@@ -41,10 +42,10 @@ function App() {
         {!overlayActive && <PageFooter setActivePage={setActivePage} />}
         {!overlayActive && scrolled && <ScrollTopButton />}
       </div>
-      <div className=".d-lg-none .d-xl-block App text-center dev-note">
+      {/* <div className=".d-lg-none .d-xl-block App text-center dev-note">
         <strong>Developer's Note</strong>: This website is under development and
         currently only available on large screens.
-      </div>
+      </div> */}
     </Router>
   );
 }

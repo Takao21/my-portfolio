@@ -5,6 +5,7 @@
 }
 
 .ResumePage .resume-name-div {
+  word-wrap: break-word;
   margin-left: 1rem;
   font-size: 1.7rem;
 }
@@ -24,6 +25,7 @@
 }
 
 .ResumePage .body-flex-container {
+  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -92,4 +94,29 @@
 .ResumePage .contact-section p:first-child {
   margin-left: 0;
   margin-bottom: 8px;
+}
+
+/* medium screens */
+@media (max-width: 991.98px) {
+  .ResumePage {
+    padding-right: 0;
+  }
+  .ResumePage .section-title {
+    margin-left: -0.5rem;
+  }
+  .ResumePage .subsection {
+    margin-left: 0.5rem;
+  }
+  .ResumePage .body-flex-container {
+    justify-content: normal;
+  }
+  .ResumePage .resume-name-div {
+    margin-left: 0.5rem;
+  }
+  .ResumePage .resume-name-div p {
+    padding-left: 1rem;
+  }
+  .ResumePage .resume-body-side {
+    border-radius: 0;
+  }
 }

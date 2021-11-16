@@ -19,8 +19,8 @@ export const ResumePage = () => {
       </div>
       <hr />
       <div className="resume-body-wrapper container-fluid">
-        <div className="row body-flex-container justify-content-between">
-          <div className="resume-body-main col-8">
+        <div className="row body-flex-container">
+          <div className="resume-body-main col-xs-12 col-md-8">
             <ResumeProfile
               profileDescription={api_getResume.profileDescription}
             />
@@ -30,7 +30,7 @@ export const ResumePage = () => {
             <ResumeEducation education={api_getResume.education} />
           </div>
 
-          <div className="resume-body-side col-3">
+          <div className="resume-body-side col-xs-12 col-md-4">
             <div className="skills-section">
               <p className="resumeside-title">Skills</p>
               <ul>
