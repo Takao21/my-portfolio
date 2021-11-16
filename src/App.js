@@ -31,8 +31,7 @@ function App() {
 
   return (
     <Router>
-      {/* <div className="d-none d-lg-block App"> */}
-      <div className="App">
+      <div className="App" onClick={() => openNav && setOpenNav(false)}>
         <NavBar
           activePage={activePage}
           setActivePage={setActivePage}
@@ -43,10 +42,6 @@ function App() {
         <PageFooter setActivePage={setActivePage} />
         {scrolled && <ScrollTopButton />}
       </div>
-      {/* <div className=".d-lg-none .d-xl-block App text-center dev-note">
-        <strong>Developer's Note</strong>: This website is under development and
-        currently only available on large screens.
-      </div> */}
     </Router>
   );
 }
