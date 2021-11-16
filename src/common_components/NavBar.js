@@ -14,7 +14,6 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
     menu &&
       menu.addEventListener("click", (e) => {
         const target = e.target.className;
-        console.log("The target class name is ", target);
         if (target === "menu-layer") {
           e.stopPropagation();
         }
@@ -121,7 +120,7 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
                 }}
                 to={"/"}
               >
-                Portfolio
+                Portfolio <FontAwesomeIcon icon={faHome} />
               </Link>
             </p>
             <p>
@@ -153,7 +152,7 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
                 }}
                 to={"/resume"}
               >
-                Resume
+                Résumé
               </Link>
             </p>
             <p>

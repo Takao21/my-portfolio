@@ -82,14 +82,14 @@
   font-size: 2rem;
   margin-left: 100%;
   transform: translateX(-100%);
-  cursor: pointer;
 }
 
 .NavBar .menu-layer p {
   width: fit-content;
 }
 
-.NavBar .toggle-menu-button {
+.NavBar .toggle-menu-button,
+.NavBar .menu-layer .close-menu-container {
   cursor: pointer;
 }
 
