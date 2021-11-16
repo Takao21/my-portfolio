@@ -12,7 +12,7 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
   return (
     <div className="NavBar">
       {/* DeskTop View */}
-      {/* <div className="desktop-nav container-fluid">
+      <div className="d-none d-md-block desktop-nav container-fluid">
         <div className="row justify-content-around">
           <div className="col-2 text-center">
             <Link
@@ -76,8 +76,8 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
             </Link>
           </div>
         </div>
-      </div> */}
-      <div className="mobile-nav container-fluid">
+      </div>
+      <div className="d-block d-md-none mobile-nav container-fluid">
         <Link className="nav-logo" to="/">
           <img className="nav-logo" src="/pictures/logo.png" alt="" />
         </Link>
