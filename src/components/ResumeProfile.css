@@ -1,0 +1,12 @@
+.ResumeProfile .profile-desc::first-letter {
+  margin-left: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  .ResumeProfile .profile-desc {
+    text-align: justify;
+  }
+  .ResumeProfile .profile-desc::first-letter {
+    margin-left: 1rem;
+  }
+}

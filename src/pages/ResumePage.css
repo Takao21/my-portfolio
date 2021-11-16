@@ -44,6 +44,10 @@
   margin-left: 3rem;
 }
 
+.ResumePage .subsection-data {
+  margin-right: 1.5rem;
+}
+
 .ResumePage .section-title {
   /* border-top-left-radius: 1rem;
   border-top-right-radius: 1rem; */
@@ -106,6 +110,9 @@
   }
   .ResumePage .subsection {
     margin-left: 0.5rem;
+  }
+  .ResumePage .subsection-data {
+    margin-right: 0.5rem;
   }
   .ResumePage .body-flex-container {
     justify-content: normal;

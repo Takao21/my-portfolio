@@ -12,7 +12,10 @@ export const ResumeEducation = ({ education }) => {
       {education
         .sort((a, b) => b.index - a.index) //  sort in reverse chronological order using the simplified indices in the API
         .map((data) => (
-          <div className="education-details-segment" key={data.index}>
+          <div
+            className="subsection-data education-details-segment"
+            key={data.index}
+          >
             <p className="sub-header">
               {data.fieldOfStudy}, {data.facility}, {data.location}
             </p>

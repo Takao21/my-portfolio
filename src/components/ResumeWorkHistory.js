@@ -12,7 +12,10 @@ export const ResumeWorkHistory = ({ workHistory }) => {
       {workHistory
         .sort((a, b) => b.index - a.index) //  sort in reverse chronological order using the simplified indices in the API
         .map((work) => (
-          <div className="work-details-segment" key={work.index}>
+          <div
+            className="subsection-data work-details-segment"
+            key={work.index}
+          >
             <p className="sub-header">
               {work.position}, {work.company}, {work.location}
             </p>

@@ -9,7 +9,7 @@ export const ResumeProfile = ({ profileDescription }) => {
       <p className="section-title">
         <FontAwesomeIcon icon={faUserCircle} /> Profile
       </p>
-      <p>{profileDescription}</p>
+      <p className="subsection-data profile-desc">{profileDescription}</p>
     </div>
   );
 };
