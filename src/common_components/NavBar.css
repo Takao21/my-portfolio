@@ -48,3 +48,37 @@
 .NavBar .desktop-nav .row .col-2:last-child .my-nav-link:hover {
   border-bottom: 0.2rem solid #f8adff;
 }
+
+/* mobile view  */
+
+.NavBar .mobile-nav {
+  line-height: 4rem;
+  height: 4rem;
+  background-color: #424242;
+  box-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+
+.NavBar .toggle-menu-button {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  float: right;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.NavBar .menu-layer {
+  font-family: "Source Serif Pro", serif;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 100vh;
+  box-shadow: -1px 0px 2px #000;
+}
+
+.NavBar .menu-layer .close-menu-button {
+  font-size: 2rem;
+  text-align: right;
+}

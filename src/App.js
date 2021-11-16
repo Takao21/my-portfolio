@@ -11,6 +11,7 @@ function App() {
   const [overlayActive, setOverlayActive] = useState(false); // !!! Set default to true and edit css for document scroll if you use the overlay intro
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
+  const [openNav, setOpenNav] = useState(false);
 
   /*Logic to show ScrollTopButton if document is scrolled. */
   useEffect(() => {
@@ -36,7 +37,12 @@ function App() {
       <div className="App">
         {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
         {!overlayActive && (
-          <NavBar activePage={activePage} setActivePage={setActivePage} />
+          <NavBar
+            activePage={activePage}
+            setActivePage={setActivePage}
+            openNav={openNav}
+            setOpenNav={setOpenNav}
+          />
         )}
         {!overlayActive && <CurrentPage />}
         {!overlayActive && <PageFooter setActivePage={setActivePage} />}
