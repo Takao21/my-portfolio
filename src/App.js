@@ -2,13 +2,11 @@ import { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./common_components/NavBar";
-import { OverlayIntro } from "./common_components/OverlayIntro";
 import { PageFooter } from "./common_components/PageFooter";
 import { ScrollTopButton } from "./common_components/ScrollTopButton";
 import { CurrentPage } from "./components/CurrentPage";
 
 function App() {
-  const [overlayActive, setOverlayActive] = useState(false); // !!! Set default to true and edit css for document scroll if you use the overlay intro
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
   const [openNav, setOpenNav] = useState(false);
@@ -35,18 +33,15 @@ function App() {
     <Router>
       {/* <div className="d-none d-lg-block App"> */}
       <div className="App">
-        {/* <OverlayIntro setOverlayActive={setOverlayActive} /> */}
-        {!overlayActive && (
-          <NavBar
-            activePage={activePage}
-            setActivePage={setActivePage}
-            openNav={openNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {!overlayActive && <CurrentPage />}
-        {!overlayActive && <PageFooter setActivePage={setActivePage} />}
-        {!overlayActive && scrolled && <ScrollTopButton />}
+        <NavBar
+          activePage={activePage}
+          setActivePage={setActivePage}
+          openNav={openNav}
+          setOpenNav={setOpenNav}
+        />
+        <CurrentPage />
+        <PageFooter setActivePage={setActivePage} />
+        {scrolled && <ScrollTopButton />}
       </div>
       {/* <div className=".d-lg-none .d-xl-block App text-center dev-note">
         <strong>Developer's Note</strong>: This website is under development and
