@@ -15,15 +15,6 @@
   padding-left: 2rem;
 }
 
-.ResumePage .bg-sprite {
-  z-index: -999;
-  position: absolute;
-  height: 600px;
-  bottom: 0;
-  right: 0;
-  filter: opacity(25%);
-}
-
 .ResumePage .body-flex-container {
   justify-content: space-between;
   align-items: flex-start;
@@ -105,6 +96,9 @@
   .ResumePage {
     padding-right: 0;
   }
+  .ResumePage .body-flex-container {
+    /* align-items: flex-end; */
+  }
   .ResumePage .section-title {
     margin-left: -0.5rem;
   }
@@ -114,14 +108,11 @@
   .ResumePage .subsection-data {
     margin-right: 0.5rem;
   }
-  .ResumePage .body-flex-container {
-    justify-content: normal;
-  }
   .ResumePage .resume-name-div {
-    margin-left: 0.5rem;
+    margin-left: 0;
   }
   .ResumePage .resume-name-div p {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
   .ResumePage .resume-body-side {
     border-radius: 0;

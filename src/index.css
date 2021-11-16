@@ -2,6 +2,13 @@
 /* font-family: 'Source Serif Pro', serif; */
 /* font-family: 'Source Sans Pro, sans-serif; */
 
+/* box model testing - enable the following 3 lines of css */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
 html {
   height: 100%;
 }
