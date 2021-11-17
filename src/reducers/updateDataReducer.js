@@ -9,7 +9,7 @@ const initialState = {
 const updateDataReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case "UPDATE_DATA":
-      console.log("Updated Data", { ...state, ...payload });
+      // console.log("Redux Updated Data", { ...state, ...payload });
       return { ...state, ...payload };
 
     default:

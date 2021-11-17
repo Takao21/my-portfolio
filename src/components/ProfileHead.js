@@ -9,6 +9,10 @@ export const ProfileHead = ({ apiBasicInfo }) => {
   const data = useSelector((state) => state.updateDataReducer);
   useEffect(() => {
     dispatch(updateData(apiBasicInfo));
+    console.info(
+      "Unnecessary redux test to flex some skills: the redux data just updated to ",
+      data
+    );
     // eslint-disable-next-line
   }, []);
   return (
