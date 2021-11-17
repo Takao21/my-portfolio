@@ -12,6 +12,7 @@ function App() {
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
+    setOpenNav(false);
     // initiate current path in the URL as active page
     const temp = window.location.pathname.split("/");
     const currentPath = "/" + temp[temp.length - 1];

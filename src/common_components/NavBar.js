@@ -102,9 +102,11 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
             alt="navigation bar logo"
           />
         </Link>
-        <span className="toggle-menu-button" onClick={() => setOpenNav(true)}>
-          <FontAwesomeIcon icon={faThList} />
-        </span>
+        {!openNav && (
+          <span className="toggle-menu-button" onClick={() => setOpenNav(true)}>
+            <FontAwesomeIcon icon={faThList} />
+          </span>
+        )}
         {openNav && (
           <div className="menu-layer">
             <p className="close-menu-container">

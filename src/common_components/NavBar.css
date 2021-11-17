@@ -23,7 +23,7 @@
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
   box-shadow: 0 1px 5px #000000;
-  /* transform: translateY(-25%); */
+  z-index: 1100;
 }
 
 .NavBar .my-nav-link {
@@ -51,6 +51,21 @@
 
 /* mobile view  */
 
+@keyframes shiny {
+  0% {
+    opacity: 1;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  50% {
+    opacity: 0;
+    text-shadow: 1px 1px 4px #fff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 1px 1px 2px #fff;
+  }
+}
+
 .NavBar .mobile-nav {
   line-height: 4rem;
   height: 4rem;
@@ -63,7 +78,8 @@
   margin-right: 0.5rem;
   float: right;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #fff;
+  animation: shiny 1.5s linear 0.5s infinite normal forwards;
 }
 
 .NavBar .menu-layer {
@@ -76,6 +92,8 @@
   width: 90%;
   height: 100vh;
   box-shadow: -1px 0px 2px #000;
+  /* transform: translateX(110%);
+  transition: transform 0.3s ease-in; */
 }
 
 .NavBar .menu-layer .close-menu-container {
