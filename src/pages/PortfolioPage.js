@@ -39,6 +39,7 @@ export const PortfolioPage = () => {
       <SkillDiamonds />
       <ProjectList topic="HTML, CSS" projects={htmlcssProjects} />
       <ProjectList topic="JavaScript" projects={jsProjects} />
+      <ProjectList topic="Bootstrap" projects={bootstrapProjects} />
       <ProjectList topic="React/Redux" projects={reactProjects} />
       <ProjectList topic="Angular" projects={ngProjects} />
     </div>
