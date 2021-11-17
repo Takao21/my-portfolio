@@ -11,8 +11,13 @@ function App() {
   const [activePage, setActivePage] = useState("/");
   const [openNav, setOpenNav] = useState(false);
 
-  /*Logic to show ScrollTopButton if document is scrolled. */
   useEffect(() => {
+    // initiate current path in the URL as active page
+    const temp = window.location.pathname.split("/");
+    const currentPath = "/" + temp[temp.length - 1];
+    setActivePage(currentPath);
+
+    // event to track window scroll activity, for scrollToTop button
     document.addEventListener("scroll", (e) => {
       let scrollPosition = document.scrollingElement.scrollTop;
       if (scrollPosition >= 150) {
@@ -21,12 +26,6 @@ function App() {
         setScrolled(false);
       }
     });
-  }, []);
-
-  useEffect(() => {
-    const temp = window.location.pathname.split("/");
-    const currentPath = "/" + temp[temp.length - 1];
-    setActivePage(currentPath);
   }, []);
 
   return (
