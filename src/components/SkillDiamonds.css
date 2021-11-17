@@ -41,6 +41,28 @@
   }
 }
 
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: skew(-20deg) translateY(50%) scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: skew(-20deg) translateY(50%) scaleX(1);
+  }
+}
+
+@keyframes slideInMobile {
+  0% {
+    opacity: 0;
+    transform: skew(-20deg) scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: skew(-20deg) scaleX(1);
+  }
+}
+
 .SkillDiamonds .prl-1 {
   background-color: #ffbfb5;
   animation: glow 0.3s ease-out 0.5s;

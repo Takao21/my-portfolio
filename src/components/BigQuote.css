@@ -33,3 +33,12 @@
   font-size: 6em;
   z-index: -1;
 }
+@media (max-width: 1199.98px) {
+  .BigQuote .quote-div {
+    max-width: 95%;
+    margin: 4rem auto;
+  }
+  .BigQuote .quote-div .my-quote {
+    font-size: 1.5rem;
+  }
+}
