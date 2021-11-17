@@ -116,7 +116,7 @@ export const projects = [
     imageURL: "https://i.ibb.co/f2RV1xt/trello-clone-react.png",
     imageAlt: "Trello Clone with React",
     shortDesc:
-      "This was a training project assigned by the seniors to practice React. Here, I've remade the visuals of a Trello.com board using React framework.",
-    sourceURL: "https://github.com/Takao21/membership-project",
+      "This was a training project assigned by the seniors to practice React. Here, I've remade the UI of a Trello.com board using React framework. This uses a free server so it may unexpectedly break or slow down.",
+    sourceURL: "https://trello-clone-react.000webhostapp.com/",
   },
 ];
