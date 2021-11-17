@@ -38,3 +38,4 @@ export const CurrentPage = () => {
     </div>
   );
 };
+export const MemoizedCurrentPage = React.memo(CurrentPage);

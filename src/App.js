@@ -4,7 +4,7 @@ import "./App.css";
 import { NavBar } from "./common_components/NavBar";
 import { PageFooter } from "./common_components/PageFooter";
 import { ScrollTopButton } from "./common_components/ScrollTopButton";
-import { CurrentPage } from "./components/CurrentPage";
+import { CurrentPage, MemoizedCurrentPage } from "./components/CurrentPage";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -37,7 +37,8 @@ function App() {
           openNav={openNav}
           setOpenNav={setOpenNav}
         />
-        <CurrentPage />
+        {/* <CurrentPage /> */}
+        <MemoizedCurrentPage />
         <PageFooter setActivePage={setActivePage} />
         {scrolled && <ScrollTopButton />}
       </div>
