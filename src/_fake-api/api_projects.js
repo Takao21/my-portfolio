@@ -93,7 +93,7 @@ export const projects = [
     id: 10,
     categories: ["angular"],
     title: "Angular Portfolio",
-    imageURL: "https://i.ibb.co/FKy0BS7/angular-portfolio.png",
+    imageURL: "https://i.imgur.com/Ag7Q9MX.png",
     imageAlt: "Angular Portfolio Screenshot",
     shortDesc:
       "This is an old portfolio I made before using Angular. The portfolio you're reading now is made using React. :)",
@@ -103,7 +103,7 @@ export const projects = [
     id: 11,
     categories: ["html", "css"],
     title: "Member List CRUD",
-    imageURL: "https://i.ibb.co/RhpF777/member-list-editor.png",
+    imageURL: "https://i.imgur.com/Smg5T77.png",
     imageAlt: "Member List CRUD Screenshot",
     shortDesc:
       "When I asked to join the school project with seniors, they asked me to show I've learnt so far by duplicating a simple member list CRUD webpage to show my HTML, CSS and JS knowledge. This project is very simple so I just linked to my Git repo.",
@@ -113,7 +113,7 @@ export const projects = [
     id: 12,
     categories: ["react"],
     title: "Trello Clone",
-    imageURL: "https://i.ibb.co/f2RV1xt/trello-clone-react.png",
+    imageURL: "https://i.imgur.com/AEvNPBb.png",
     imageAlt: "Trello Clone with React",
     shortDesc:
       "This was a training project assigned by the seniors to practice React. Here, I've remade the UI of a Trello.com board using React framework. This uses a free server so it may unexpectedly break or slow down.",
@@ -123,7 +123,7 @@ export const projects = [
     id: 13,
     categories: ["react"],
     title: "Little Chef Restaurant",
-    imageURL: "https://i.ibb.co/58CMQF0/lilchef.png",
+    imageURL: "https://i.imgur.com/cNDkHjc.png",
     imageAlt: "Little Chef Restaurant",
     shortDesc:
       "I built this small website over a span of 2 weeks as a practice project after studying React with seniors.  I tried to create a soft bright theme to represent clouds and heaven. The clouds banner animation on the homepage was inspired by a Youtube tutorial I've watched before.",
@@ -134,7 +134,7 @@ export const projects = [
     id: 14,
     categories: ["react"],
     title: "Online Shop UI",
-    imageURL: "https://i.ibb.co/b2QP8Zt/shoppingweb.png",
+    imageURL: "https://i.imgur.com/CfE7QD3.png",
     imageAlt: "Online Shop UI",
     shortDesc:
       "In this project, I practiced on the Add-To-Cart mechanism of online shops using Redux and created a UI around it using Material UI. Follow the arrow to view the source code in my Github.",
