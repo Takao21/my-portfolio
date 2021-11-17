@@ -3,19 +3,13 @@ import "./PortfolioPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { BigQuote } from "../components/BigQuote";
+import { SkillDiamonds } from "../components/SkillDiamonds";
 
 export const PortfolioPage = () => {
   return (
     <div className="PortfolioPage">
-      {/* <div className="quote-div text-center">
-        <blockquote className="my-quote">
-          Don't get bothered by what you can't control. Focus on what you can
-          do.
-          <footer className="quote-footer">Takao</footer>
-        </blockquote>
-      </div> */}
       <BigQuote />
-      <div className="main-skills-div text-center">
+      {/* <div className="main-skills-div text-center">
         <div className="main-skill prl-1">
           <h2>HTML</h2>
         </div>
@@ -34,8 +28,8 @@ export const PortfolioPage = () => {
         <div className="main-skill prl-tail">
           <p>... and more.</p>
         </div>
-      </div>
-
+      </div> */}
+      <SkillDiamonds />
       <div className="projects-div">
         <div className="category-title">
           <h3>Personal Projects</h3>
