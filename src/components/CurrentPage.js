@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { ContactPage } from "../pages/ContactPage";
-import { HomePage } from "../pages/HomePage";
+import { BackgroundPage } from "../pages/BackgroundPage";
 import { ResumePage } from "../pages/ResumePage";
 import { PortfolioPage } from "../pages/PortfolioPage";
 import ScrollToTop from "../util/ScrollToTop";
@@ -16,7 +16,7 @@ export const CurrentPage = () => {
             <ResumePage />
           </Route>
           <Route exact path={"/background"}>
-            <HomePage />
+            <BackgroundPage />
           </Route>
           <Route exact path={"/contact"}>
             <ContactPage />
