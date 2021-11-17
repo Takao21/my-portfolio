@@ -20,9 +20,7 @@ export const ProfileHead = ({ apiBasicInfo }) => {
           as <span className="highlighted-text">Takao</span>.
         </p>
       </div>
-      <div className="hero-img">
-        {/* <img src="/pictures/kayaba_akihiko.jpg" alt=""></img> */}
-      </div>
+      <div className="hero-img"></div>
     </div>
   );
 };
