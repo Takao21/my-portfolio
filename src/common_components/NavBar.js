@@ -57,7 +57,11 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
               onClick={() => setActivePage("/")}
               to={"/"}
             >
-              <img className="nav-logo" src="/pictures/logo.png" alt="" />
+              <img
+                className="nav-logo"
+                src="/pictures/logo.png"
+                alt="navigation bar logo"
+              />
             </Link>
           </div>
           <div className="col-2 text-center">
@@ -92,7 +96,11 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
       {/* Mobile View */}
       <div className="d-block d-md-none mobile-nav container-fluid">
         <Link className="nav-logo" to="/">
-          <img className="nav-logo" src="/pictures/logo.png" alt="" />
+          <img
+            className="nav-logo"
+            src="/pictures/logo.png"
+            alt="navigation bar logo"
+          />
         </Link>
         <span className="toggle-menu-button" onClick={() => setOpenNav(true)}>
           <FontAwesomeIcon icon={faThList} />

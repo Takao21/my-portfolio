@@ -50,7 +50,7 @@ export const ProfileBody = ({ apiDevHistory: devHistory }) => {
         <img
           className="honestwork-meme"
           src="/pictures/honestworkmeme.jpg"
-          alt=""
+          alt="it ain't much but it's honest work"
         ></img>
       </div>
     </div>
