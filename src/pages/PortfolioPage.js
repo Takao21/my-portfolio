@@ -2,17 +2,19 @@ import React from "react";
 import "./PortfolioPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { BigQuote } from "../components/BigQuote";
 
 export const PortfolioPage = () => {
   return (
     <div className="PortfolioPage">
-      <div className="quote-div text-center">
+      {/* <div className="quote-div text-center">
         <blockquote className="my-quote">
           Don't get bothered by what you can't control. Focus on what you can
           do.
           <footer className="quote-footer">Takao</footer>
         </blockquote>
-      </div>
+      </div> */}
+      <BigQuote />
       <div className="main-skills-div text-center">
         <div className="main-skill prl-1">
           <h2>HTML</h2>

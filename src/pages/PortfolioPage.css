@@ -1,11 +1,7 @@
 .PortfolioPage {
-  padding: 0 3rem 2.5rem 3rem;
+  padding: 3rem 3rem 2.5rem 3rem;
 }
-
-.PortfolioPage .row {
-  row-gap: 1.5rem;
-}
-
+/* 
 .PortfolioPage .quote-div {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -39,9 +35,8 @@
   top: -4rem;
   right: 0rem;
   font-size: 6em;
-  /* font-style: italic; */
   z-index: -1;
-}
+} */
 
 .PortfolioPage .card-div {
   max-width: 80%;
