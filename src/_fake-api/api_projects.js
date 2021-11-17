@@ -112,11 +112,32 @@ export const projects = [
   {
     id: 12,
     categories: ["react"],
-    title: "Trello Clone with React",
+    title: "Trello Clone",
     imageURL: "https://i.ibb.co/f2RV1xt/trello-clone-react.png",
     imageAlt: "Trello Clone with React",
     shortDesc:
       "This was a training project assigned by the seniors to practice React. Here, I've remade the UI of a Trello.com board using React framework. This uses a free server so it may unexpectedly break or slow down.",
     sourceURL: "https://trello-clone-react.000webhostapp.com/",
+  },
+  {
+    id: 13,
+    categories: ["react"],
+    title: "Little Chef Restaurant",
+    imageURL: "https://i.ibb.co/58CMQF0/lilchef.png",
+    imageAlt: "Little Chef Restaurant",
+    shortDesc:
+      "I built this small website over a span of 2 weeks as a practice project after studying React with seniors.  I tried to create a soft bright theme to represent clouds and heaven. The clouds banner animation on the homepage was inspired by a Youtube tutorial I've watched before.",
+    sourceURL:
+      "https://www.linkedin.com/feed/update/urn:li:activity:6718480584575975424/",
+  },
+  {
+    id: 14,
+    categories: ["react"],
+    title: "Online Shop UI",
+    imageURL: "https://i.ibb.co/b2QP8Zt/shoppingweb.png",
+    imageAlt: "Online Shop UI",
+    shortDesc:
+      "In this project, I practiced on the Add-To-Cart mechanism of online shops using Redux and created a UI around it using Material UI. Follow the arrow to view the source code in my Github.",
+    sourceURL: "https://github.com/Takao21/shopping-redux-ui",
   },
 ];
