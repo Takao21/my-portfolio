@@ -1,11 +1,11 @@
 import React from "react";
-import "./SkillsPage.css";
+import "./PortfolioPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-export const SkillsPage = () => {
+export const PortfolioPage = () => {
   return (
-    <div className="SkillsPage">
+    <div className="PortfolioPage">
       <div className="quote-div text-center">
         <blockquote className="my-quote">
           Don't get bothered by what you can't control. Focus on what you can

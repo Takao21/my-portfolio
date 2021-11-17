@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import { ContactPage } from "../pages/ContactPage";
 import { HomePage } from "../pages/HomePage";
 import { ResumePage } from "../pages/ResumePage";
-import { SkillsPage } from "../pages/SkillsPage";
+import { PortfolioPage } from "../pages/PortfolioPage";
 import ScrollToTop from "../util/ScrollToTop";
 import "./CurrentPage.css";
 
@@ -22,10 +22,10 @@ export const CurrentPage = () => {
             <ContactPage />
           </Route>
           <Route exact path={"/home"}>
-            <SkillsPage />
+            <PortfolioPage />
           </Route>
           <Route exact path={"/"}>
-            <SkillsPage />
+            <PortfolioPage />
           </Route>
           <Route>
             <h1 className="text-center mt-5">Error 404: Page Not Found</h1>

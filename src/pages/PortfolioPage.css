@@ -1,12 +1,12 @@
-.SkillsPage {
+.PortfolioPage {
   padding: 0 3rem 2.5rem 3rem;
 }
 
-.SkillsPage .row {
+.PortfolioPage .row {
   row-gap: 1.5rem;
 }
 
-.SkillsPage .quote-div {
+.PortfolioPage .quote-div {
   margin-top: 4rem;
   margin-bottom: 4rem;
   max-width: 80%;
@@ -14,7 +14,7 @@
   margin-right: auto;
 }
 
-.SkillsPage .my-quote {
+.PortfolioPage .my-quote {
   font-size: 2rem;
   font-family: "Source Serif Pro", serif;
   font-weight: 600;
@@ -22,17 +22,17 @@
   position: relative;
 }
 
-.SkillsPage .quote-footer {
+.PortfolioPage .quote-footer {
   font-size: 1.5rem;
   color: rgb(211, 211, 211);
 }
 
-.SkillsPage .quote-footer::before {
+.PortfolioPage .quote-footer::before {
   text-shadow: none;
   content: "\2015";
 }
 
-.SkillsPage .quote-footer::after {
+.PortfolioPage .quote-footer::after {
   text-shadow: none;
   content: "\201D";
   position: absolute;
@@ -43,18 +43,18 @@
   z-index: -1;
 }
 
-.SkillsPage .card-div {
+.PortfolioPage .card-div {
   max-width: 80%;
   margin: auto;
 }
 
 /* ----------------------- */
 
-.SkillsPage .main-skills-div {
+.PortfolioPage .main-skills-div {
   height: calc(100vh - 14rem);
 }
 
-.SkillsPage .main-skill {
+.PortfolioPage .main-skill {
   display: inline-block;
   margin-right: 1rem;
   height: 15rem;
@@ -63,17 +63,17 @@
   transform: skew(-20deg);
   margin-left: -2rem;
 }
-.SkillsPage .main-skill:first-child {
+.PortfolioPage .main-skill:first-child {
   margin-left: 2rem;
 }
 
-.SkillsPage .main-skill h2 {
+.PortfolioPage .main-skill h2 {
   line-height: 15rem;
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
 }
 
-.SkillsPage .main-skill:nth-child(even) {
+.PortfolioPage .main-skill:nth-child(even) {
   transform: skew(-20deg) translateY(50%);
 }
 
@@ -111,27 +111,27 @@
   }
 }
 
-.SkillsPage .prl-1 {
+.PortfolioPage .prl-1 {
   background-color: #ffbfb5;
   animation: glow 0.3s ease-out 0.5s;
 }
-.SkillsPage .prl-2 {
+.PortfolioPage .prl-2 {
   background-color: #b0fcd2;
   animation: glow 0.3s ease-out 0.7s;
 }
-.SkillsPage .prl-3 {
+.PortfolioPage .prl-3 {
   background-color: #e7fd69;
   animation: glow 0.3s ease-out 0.9s;
 }
-.SkillsPage .prl-4 {
+.PortfolioPage .prl-4 {
   background-color: #bab0e6;
   animation: glow 0.3s ease-out 1.1s;
 }
-.SkillsPage .prl-5 {
+.PortfolioPage .prl-5 {
   background-color: #70ff70;
   animation: glow 0.3s ease-out 1.3s;
 }
-.SkillsPage .prl-tail {
+.PortfolioPage .prl-tail {
   opacity: 0;
   width: auto;
   font-size: 1.5rem;
@@ -140,27 +140,27 @@
   animation-fill-mode: forwards;
 }
 
-.SkillsPage .projects-div {
+.PortfolioPage .projects-div {
   margin-bottom: 4rem;
 }
 
-.SkillsPage .projects-div .prj-cards-container {
+.PortfolioPage .projects-div .prj-cards-container {
   padding-left: 1rem;
   padding-bottom: 1rem;
   overflow-y: auto;
 }
 
-.SkillsPage .projects-div .prj-cards-container::-webkit-scrollbar {
+.PortfolioPage .projects-div .prj-cards-container::-webkit-scrollbar {
   background: transparent;
   height: 5px;
 }
 
-.SkillsPage .projects-div .prj-cards-container::-webkit-scrollbar-thumb {
+.PortfolioPage .projects-div .prj-cards-container::-webkit-scrollbar-thumb {
   background: #4e4e4e;
   border-radius: 1rem;
 }
 
-.SkillsPage .prj-card {
+.PortfolioPage .prj-card {
   min-width: 20rem;
   height: 15rem;
   position: relative;
@@ -172,13 +172,13 @@
   overflow: hidden;
 }
 
-.SkillsPage .prj-card .card-title {
+.PortfolioPage .prj-card .card-title {
   font-family: "Source Serif Pro", serif;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.SkillsPage .prj-card .see-details-btn {
+.PortfolioPage .prj-card .see-details-btn {
   text-align: center;
   float: right;
   font-size: 2rem;
@@ -188,14 +188,14 @@
   border-radius: 50%;
 }
 
-.SkillsPage .prj-img {
+.PortfolioPage .prj-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   background-position: top left;
 }
 
-.SkillsPage .prj-card .card-desc {
+.PortfolioPage .prj-card .card-desc {
   position: absolute;
   bottom: 0;
   visibility: hidden;
@@ -212,52 +212,52 @@
   transition: transform 0.2s ease-in, visibility 0.2s ease-in;
 }
 
-.SkillsPage .prj-card .card-desc h4 {
+.PortfolioPage .prj-card .card-desc h4 {
   font-variant: small-caps !important;
   letter-spacing: 1px;
 }
 
-.SkillsPage .prj-card:hover {
+.PortfolioPage .prj-card:hover {
   box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 1);
 }
 
-.SkillsPage .prj-card .see-details-btn:hover {
+.PortfolioPage .prj-card .see-details-btn:hover {
   background-color: #fff;
   color: #000;
   border-color: #000;
 }
 
-.SkillsPage .prj-card:hover .card-desc {
+.PortfolioPage .prj-card:hover .card-desc {
   transform: scaleY(1);
   visibility: visible;
   transition: transform 0.2s ease-in 0.1s, visibility 0.2s ease-in 0.1s;
 }
 
 @media (max-width: 1199.98px) {
-  .SkillsPage {
+  .PortfolioPage {
     padding: 0 1rem 2.5rem 1rem;
   }
-  .SkillsPage .quote-div {
+  .PortfolioPage .quote-div {
     max-width: 95%;
     margin: 4rem auto;
   }
-  .SkillsPage .quote-div .my-quote {
+  .PortfolioPage .quote-div .my-quote {
     font-size: 1.5rem;
   }
-  .SkillsPage .main-skills-div {
+  .PortfolioPage .main-skills-div {
     height: auto;
     max-width: 95%;
   }
-  .SkillsPage .main-skill {
+  .PortfolioPage .main-skill {
     width: 15rem;
     height: 5rem;
     margin: 0 !important;
     transform: skew(-20deg) translateY(0) !important;
   }
-  .SkillsPage .main-skill h2 {
+  .PortfolioPage .main-skill h2 {
     line-height: 5rem;
   }
-  .SkillsPage .prl-tail {
+  .PortfolioPage .prl-tail {
     text-align: right;
     animation: slideInMobile 0.8s ease-out 1.5s;
     animation-fill-mode: forwards;
