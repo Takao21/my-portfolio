@@ -62,7 +62,7 @@ export const projects = [
   {
     id: 7,
     categories: ["js"],
-    title: "P.O.S Vouncher App",
+    title: "P.O.S Voucher App",
     imageURL: "https://i.imgur.com/fE0qF4o.png",
     imageAlt: "Voucher App Screenshot",
     shortDesc:
@@ -88,5 +88,35 @@ export const projects = [
     shortDesc:
       "I did this project while learning Angular framework. It's a simple calculator designed around Angular's data binding properties.",
     sourceURL: "https://takao21.github.io/Bootstrap-corona/",
+  },
+  {
+    id: 10,
+    categories: ["angular"],
+    title: "Angular Portfolio",
+    imageURL: "https://i.ibb.co/FKy0BS7/angular-portfolio.png",
+    imageAlt: "Angular Portfolio Screenshot",
+    shortDesc:
+      "This is an old portfolio I made before using Angular. The portfolio you're reading now is made using React. :)",
+    sourceURL: "https://takao21.github.io/takao-portfolio/",
+  },
+  {
+    id: 11,
+    categories: ["html", "css"],
+    title: "Member List CRUD",
+    imageURL: "https://i.ibb.co/RhpF777/member-list-editor.png",
+    imageAlt: "Member List CRUD Screenshot",
+    shortDesc:
+      "When I asked to join the school project with seniors, they asked me to show I've learnt so far by duplicating a simple member list CRUD webpage to show my HTML, CSS and JS knowledge. This project is very simple so I just linked to my Git repo.",
+    sourceURL: "https://github.com/Takao21/membership-project",
+  },
+  {
+    id: 12,
+    categories: ["react"],
+    title: "Trello Clone with React",
+    imageURL: "https://i.ibb.co/f2RV1xt/trello-clone-react.png",
+    imageAlt: "Trello Clone with React",
+    shortDesc:
+      "This was a training project assigned by the seniors to practice React. Here, I've remade the visuals of a Trello.com board using React framework.",
+    sourceURL: "https://github.com/Takao21/membership-project",
   },
 ];
