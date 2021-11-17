@@ -1,8 +1,7 @@
 import React from "react";
-import { SkillCard } from "../components/SkillCard";
 import "./SkillsPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faarro } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { skills } from "../_fake-api/api_skills";
 
 export const SkillsPage = () => {
