@@ -7,9 +7,4 @@ body {
 
 .App {
   position: relative;
-  z-index: 0;
-}
-
-.onTheTop {
-  z-index: 1;
 }

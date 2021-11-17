@@ -39,7 +39,7 @@ function App() {
         />
         <CurrentPage />
         <PageFooter setActivePage={setActivePage} />
-        {scrolled && <ScrollTopButton className="onTheTop" />}
+        {scrolled && <ScrollTopButton />}
       </div>
     </Router>
   );
