@@ -1,4 +1,4 @@
-.BigQuote .quote-div {
+.BigQuote {
   margin-top: 4rem;
   margin-bottom: 4rem;
   max-width: 80%;
@@ -34,9 +34,8 @@
   z-index: -1;
 }
 @media (max-width: 1199.98px) {
-  .BigQuote .quote-div {
+  .BigQuote {
     max-width: 95%;
-    margin: 4rem auto;
   }
   .BigQuote .quote-div .my-quote {
     font-size: 1.5rem;

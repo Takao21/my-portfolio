@@ -1,8 +1,4 @@
 .SkillDiamonds {
-  margin: 4rem 0;
-}
-
-.SkillDiamonds .main-skills-div {
   height: calc(100vh - 14rem);
 }
 
@@ -93,7 +89,7 @@
 }
 
 @media (max-width: 1199.98px) {
-  .SkillDiamonds .main-skills-div {
+  .SkillDiamonds {
     height: auto;
     max-width: 95%;
   }
