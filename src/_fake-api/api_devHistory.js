@@ -25,60 +25,66 @@ export const devHistory = [
   },
   {
     entry: 4,
-    date: "June, 2018",
+    date: "May, 2018",
     story:
-      "He left the university to follow his passion when he knew the university was not what he imagined and he had to waste time on minor subjects for 3 more years. Later, he was fascinated by how video games are created after attending a Global Game Jam. So he studied C# and Unity Engine online in his free time. This experience gave him great knowledge of OOP, UI Concepts and Project Management. He also made a small game like Super Mario which he allowed his best friends to play.",
+      "He left the university to follow his passion when he knew that the university was not what he imagined and that he had to waste time on minor subjects for 3 more years.",
   },
   {
     entry: 5,
+    date: "June, 2018",
+    story:
+      "Later, he was fascinated by how video games are created after attending a Global Game Jam. So he studied C# and Unity Engine online in his free time. This experience gave him great knowledge of OOP, UI Concepts and Project Management. He also made a small game like Super Mario which he allowed his best friends to play.",
+  },
+  {
+    entry: 6,
     date: "September, 2019",
     story:
       "His interest to work in the real-world IT industry drove him to study web development on his own with the available resources out there. Awarded the Certification in HTML5 & CSS3 from FreeCodeCamp.org.",
   },
   {
-    entry: 6,
+    entry: 7,
     date: "November, 2019",
     story:
       "Further continuing his study on web technologies, he achieved the JavaScript Data Structures & Algorithms Certification from FreeCodeCamp in the following few months.",
   },
   {
-    entry: 7,
+    entry: 8,
     date: "December, 2019",
     story:
       "Developed a landing page for an extracurriculum student club he managed at the university and got to learn the animation framework Anime.js along the way.",
   },
   {
-    entry: 8,
+    entry: 9,
     date: "February, 2020",
     story:
       "To improve JavaScript skills, he went for a professional course on JavaScript, ReactJS & NodeJS at Turing Programming Language Center by Ko Thet Khine, who has enormous experience in Myanmar developer industry.",
   },
   {
-    entry: 9,
+    entry: 10,
     date: "March, 2020",
     story:
       "With the suggestion of seniors, he chose to learn Bootstrap CSS framework and SCSS/SASS to expand his front-end skill sets.",
   },
   {
-    entry: 10,
+    entry: 11,
     date: "April, 2020",
     story:
       "COVID-19 Outbreak happened and all our routines became limited to home. He made good use of it by learning the Angular framework with a free course from Mosh Himedani (Udemy) and some other books.",
   },
   {
-    entry: 11,
+    entry: 12,
     date: "June, 2020",
     story:
       "Had a months-long online training with seniors and classmates from his university in a private project for the school. Got more experience working in an amateur team using ReactJS and learnt about Material UI, Databases and Design Thinking Of A Website.",
   },
   {
-    entry: 12,
+    entry: 13,
     date: "August, 2020",
     story:
       "Won a start-up challenge by Phandeeyar, a local innovation center, and co-founded Myan Digital - which helps traditional businesses start online sales and improve work quality with technology. He gained lots of experience in communication, management, digital marketing, UX Thinking, Graphic Design and many more.",
   },
   {
-    entry: 13,
+    entry: 14,
     date: "February, 2021",
     story:
       "For about half a year, he was successfully running his start-up while honing his technical skills. But on Feb 2021, the infuriating Myanmar Coup D' Etat happened. The growing start-up was forced to stop and he had to live in a frozen hell of despair to the present day.",
