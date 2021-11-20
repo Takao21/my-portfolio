@@ -28,6 +28,10 @@ function App() {
         setScrolled(false);
       }
     });
+
+    console.info(
+      "Source code for this project: https://github.com/Takao21/my-portfolio . Please check it out!"
+    );
   }, []);
 
   return (
