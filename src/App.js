@@ -4,6 +4,7 @@ import "./App.css";
 import { NavBar } from "./common_components/NavBar";
 import { PageFooter } from "./common_components/PageFooter";
 import { ScrollTopButton } from "./common_components/ScrollTopButton";
+// eslint-disable-next-line no-unused-vars
 import { CurrentPage, MemoizedCurrentPage } from "./components/CurrentPage";
 
 function App() {

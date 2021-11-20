@@ -9,7 +9,6 @@ export const ProjectList = ({ topic, projects }) => {
       <div className="ProjectList">
         <div className="category-title">
           <h3>{topic} Projects</h3>
-          {console.log(topic, "projects are", projects)}
         </div>
         <hr />
         <div className="prj-cards-container d-flex">

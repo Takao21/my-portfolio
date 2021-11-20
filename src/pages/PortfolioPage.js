@@ -7,7 +7,6 @@ import { ProjectList } from "../components/ProjectList";
 
 export const PortfolioPage = () => {
   // fake api
-  console.log("API Projects are ", projects);
   const apiProjects = projects;
   const htmlcssProjects =
     apiProjects &&
