@@ -11,7 +11,7 @@ export const resume = {
       company: "Myan Digital",
       location: "Yangon",
       fromDate: "August 2020",
-      toDate: "", // empty data condition
+      toDate: "February 2021", // empty data condition
       highlights: [
         "Experience as an entrepreneur",
         "Founded through start-up acceleration challenge winner's prize at Phandeeyar",
