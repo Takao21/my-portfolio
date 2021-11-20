@@ -27,7 +27,7 @@ export const devHistory = [
     entry: 4,
     date: "June, 2018",
     story:
-      "He was fascinated by how video games are created after attending a Global Game Jam. So he studied C# and Unity Engine online in his free time. This experience gave him great knowledge of OOP, UI Concepts and Project Management. He also made a small game like Super Mario which he allowed his best friends to play.",
+      "He left the university to follow his passion when he knew the university was not what he imagined and he had to waste time on minor subjects for 3 more years. Later, he was fascinated by how video games are created after attending a Global Game Jam. So he studied C# and Unity Engine online in his free time. This experience gave him great knowledge of OOP, UI Concepts and Project Management. He also made a small game like Super Mario which he allowed his best friends to play.",
   },
   {
     entry: 5,
