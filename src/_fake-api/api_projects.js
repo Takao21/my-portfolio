@@ -140,14 +140,4 @@ export const projects = [
       "In this project, I practiced on the Add-To-Cart mechanism of online shops using Redux and created a UI around it using Material UI. Follow the arrow to view the source code in my Github.",
     sourceURL: "https://github.com/Takao21/shopping-redux-ui",
   },
-  {
-    id: 15,
-    categories: ["html", "css"],
-    title: "Horizontal Scroll Test",
-    imageURL: "https://i.imgur.com/JgHNw5R.png",
-    imageAlt: "Anime Club Webpage Design",
-    shortDesc:
-      "Being the former president of YTU Anime Club, I wanted to contribute something to the club when I retired. So, I made this web project soon after I've learnt AnimeJS framework. You can see the awesome text animation sequence at the start of this webpage.",
-    sourceURL: "https://takao21.github.io/ytuanimeclub-webpage/",
-  },
 ];
