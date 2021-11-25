@@ -14,31 +14,32 @@ export const ProjectList = ({ topic, projects }) => {
   let keepScrolling = () => {};
 
   useEffect(() => {
-    console.log("useEff called");
-    if (cardContainerRef.current.scrollLeft === 0) {
-      scrollLeftRef.current.display = "none";
-    } else if (
-      cardContainerRef.current.scrollLeft === cardContainerRef.current.width
-    ) {
-      scrollRightRef.current.display = "none";
-    } else {
-      scrollLeftRef.current.display = "block";
-      scrollRightRef.current.display = "block";
-    }
-  }, [cardContainerRef.current.scrollLeft]);
+    setupScrollButtons();
+  }, []);
 
-  const scrollCards = (e, dir) => {
-    console.log(cardContainerRef.current.scrollLeft);
-    // const cardContainer = [...e.target.parentElement.children].filter((child) =>
-    //   [...child.classList].includes("prj-cards-container")
-    // )[0];
+  const setupScrollButtons = () => {
+    if (cardContainerRef) {
+      const container = cardContainerRef.current;
+      const scrollLeftBtn = scrollLeftRef.current;
+      const scrollRightBtn = scrollRightRef.current;
+      const containerWidth = container.clientWidth;
+      const itemsWidth =
+        container.children[0].clientWidth * container.children.length; //  get the true width of all cards combined
+      itemsWidth < containerWidth //  no need scroll buttons when container is larger than all items combined
+        ? (scrollLeftBtn.style.opacity = "0")
+        : (scrollLeftBtn.style.opacity = "1");
+      itemsWidth < containerWidth
+        ? (scrollRightBtn.style.opacity = "0")
+        : (scrollRightBtn.style.opacity = "1");
+    }
+  };
+
+  const scrollCards = (dir) => {
     keepScrolling = setInterval(() => {
-      // dir === "right"
-      //   ? (cardContainer.scrollLeft += 10)
-      //   : (cardContainer.scrollLeft -= 10);
+      const cardContainer = cardContainerRef.current;
       dir === "right"
-        ? (cardContainerRef.current.scrollLeft += 10)
-        : (cardContainerRef.current.scrollLeft -= 10);
+        ? (cardContainer.scrollLeft += 10)
+        : (cardContainer.scrollLeft -= 10);
     }, 10);
   };
 
@@ -48,7 +49,7 @@ export const ProjectList = ({ topic, projects }) => {
         <div
           className="d-none d-md-block scroll-x-btn scroll-left"
           ref={scrollLeftRef}
-          onMouseDown={(e) => scrollCards(e, "left")}
+          onMouseDown={() => scrollCards("left")}
           onMouseUp={() => clearInterval(keepScrolling)}
         >
           <FontAwesomeIcon icon={faAngleLeft} />
@@ -56,7 +57,7 @@ export const ProjectList = ({ topic, projects }) => {
         <div
           className="d-none d-md-block scroll-x-btn scroll-right"
           ref={scrollRightRef}
-          onMouseDown={(e) => scrollCards(e, "right")}
+          onMouseDown={() => scrollCards("right")}
           onMouseUp={() => clearInterval(keepScrolling)}
         >
           <FontAwesomeIcon icon={faAngleRight} />
