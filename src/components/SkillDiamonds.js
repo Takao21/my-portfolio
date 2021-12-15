@@ -3,7 +3,7 @@ import "./SkillDiamonds.css";
 
 export const SkillDiamonds = () => {
   return (
-    <div className="SkillDiamonds main-skills-div text-center">
+    <div className="SkillDiamonds text-center">
       <div className="main-skill prl-1">
         <h2>HTML</h2>
       </div>

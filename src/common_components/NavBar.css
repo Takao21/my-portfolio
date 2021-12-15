@@ -57,7 +57,7 @@
     text-shadow: 1px 1px 2px #fff;
   }
   50% {
-    opacity: 0;
+    opacity: 0.3;
     text-shadow: 1px 1px 4px #fff;
   }
   100% {
@@ -79,7 +79,7 @@
   float: right;
   text-decoration: none;
   color: #fff;
-  animation: shiny 1.5s linear 0.5s infinite normal forwards;
+  animation: shiny 2s linear 0.5s infinite normal forwards;
 }
 
 .NavBar .menu-layer {

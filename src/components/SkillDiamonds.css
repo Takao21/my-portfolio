@@ -1,5 +1,6 @@
 .SkillDiamonds {
   height: calc(100vh - 14rem);
+  margin: auto;
 }
 
 .SkillDiamonds .main-skill {
@@ -96,8 +97,11 @@
   .SkillDiamonds .main-skill {
     width: 15rem;
     height: 5rem;
-    margin: 0 !important;
+    margin: 0;
     transform: skew(-20deg) translateY(0) !important;
+  }
+  .SkillDiamonds .main-skill:first-child {
+    margin: 0;
   }
   .SkillDiamonds .main-skill h2 {
     line-height: 5rem;
