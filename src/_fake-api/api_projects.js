@@ -112,13 +112,14 @@ export const projects = [
   {
     id: 12,
     categories: ["react"],
-    title: "Trello Clone",
-    imageURL: "https://i.imgur.com/AEvNPBb.png",
-    imageAlt: "Trello Clone with React",
+    title: "Nintendo Clone",
+    imageURL: "https://i.imgur.com/TJwF6AJ.png",
+    imageAlt: "Nintendo Clone with React",
     shortDesc:
-      "This was a training project assigned by the seniors to practice React. Here, I've remade the UI of a Trello.com board using React framework. This uses a free server so it may unexpectedly break or slow down.",
-    sourceURL: "https://trello-clone-react.000webhostapp.com/",
+      "I made a front-end clone of nintendo.com as a practice project for ReactJS. It took me about 4 weeks with about 80 hours of work.",
+    sourceURL: "http://nintendo-clone.herokuapp.com/",
   },
+
   {
     id: 13,
     categories: ["react"],
@@ -139,5 +140,15 @@ export const projects = [
     shortDesc:
       "In this project, I practiced on the Add-To-Cart mechanism of online shops using Redux and created a UI around it using Material UI. Follow the arrow to view the source code in my Github.",
     sourceURL: "https://github.com/Takao21/shopping-redux-ui",
+  },
+  {
+    id: 15,
+    categories: ["react"],
+    title: "Trello Clone",
+    imageURL: "https://i.imgur.com/AEvNPBb.png",
+    imageAlt: "Trello Clone with React",
+    shortDesc:
+      "This was a training project assigned by the seniors to practice React. Here, I've remade the UI of a Trello.com board using React framework. This uses a free server so it may unexpectedly break or slow down.",
+    sourceURL: "https://trello-clone-react.000webhostapp.com/",
   },
 ];

@@ -36,11 +36,11 @@ export const PortfolioPage = () => {
     <div className="PortfolioPage">
       <BigQuote />
       <SkillDiamonds />
-      <ProjectList topic="HTML, CSS" projects={htmlcssProjects} />
-      <ProjectList topic="JavaScript" projects={jsProjects} />
-      <ProjectList topic="Bootstrap" projects={bootstrapProjects} />
       <ProjectList topic="React/Redux" projects={reactProjects} />
+      <ProjectList topic="JavaScript" projects={jsProjects} />
       <ProjectList topic="Angular" projects={ngProjects} />
+      <ProjectList topic="Bootstrap" projects={bootstrapProjects} />
+      <ProjectList topic="HTML, CSS" projects={htmlcssProjects} />
     </div>
   );
 };
