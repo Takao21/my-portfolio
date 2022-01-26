@@ -1,18 +1,18 @@
-import NintendoClone from "../_fake-api/images/apiImages/nintendoclone.png";
-import LilChef from "../_fake-api/images/apiImages/lilchef.png";
-import ShopUI from "../_fake-api/images/apiImages/shopui.png";
-import TrelloClone from "../_fake-api/images/apiImages/trello-clone-react.png";
-import StopwatchWeb from "../_fake-api/images/apiImages/stopwatch.png";
-import MorseWeb from "../_fake-api/images/apiImages/morse.png";
-import CodegenWeb from "../_fake-api/images/apiImages/codegen.png";
-import VoucherWeb from "../_fake-api/images/apiImages/voucherweb.png";
-import CalcWeb from "../_fake-api/images/apiImages/calc.png";
-import NgPortfolio from "../_fake-api/images/apiImages/angularportfolio.png";
-import CovidWeb from "../_fake-api/images/apiImages/covidweb.png";
-import DocWeb from "../_fake-api/images/apiImages/docweb.png";
-import LandingPage from "../_fake-api/images/apiImages/landingpage.png";
-import YTUAC from "../_fake-api/images/apiImages/ytuac.png";
-import MembershipCRUD from "../_fake-api/images/apiImages/membershipcrud.png";
+import NintendoClone from "../_fake-api/images/apiImages/nintendoclone.avif";
+import LilChef from "../_fake-api/images/apiImages/lilchef.avif";
+import ShopUI from "../_fake-api/images/apiImages/shopui.avif";
+import TrelloClone from "../_fake-api/images/apiImages/trello-clone-react.avif";
+import StopwatchWeb from "../_fake-api/images/apiImages/stopwatch.avif";
+import MorseWeb from "../_fake-api/images/apiImages/morse.avif";
+import CodegenWeb from "../_fake-api/images/apiImages/codegen.avif";
+import VoucherWeb from "../_fake-api/images/apiImages/voucherweb.avif";
+import CalcWeb from "../_fake-api/images/apiImages/calc.avif";
+import NgPortfolio from "../_fake-api/images/apiImages/angularportfolio.avif";
+import CovidWeb from "../_fake-api/images/apiImages/covidweb.avif";
+import DocWeb from "../_fake-api/images/apiImages/docweb.avif";
+import LandingPage from "../_fake-api/images/apiImages/landingpage.avif";
+import YTUAC from "../_fake-api/images/apiImages/ytuac.avif";
+import MembershipCRUD from "../_fake-api/images/apiImages/membershipcrud.avif";
 
 export const projects = [
   {
