@@ -3,7 +3,7 @@
 export const resume = {
   name: "Aung Kaung Khant (Takao)",
   profileDescription:
-    "Self-taught and well-trained passionate developer from Myanmar. My hobby of playing and creating video games in free time made me naturally tech-savvy. I have a solid educational background in Mathematics and exceptional problem-solving skills. I've always been fascinated by computer technologies and how they can make people's lives more convenient or fun. My experience of self-learning and teaching people has grown me into an adaptable learner. Currently interested to work fully remote as a front-end developer, a similar position or in a company revolving around that field.",
+    "Self-taught and well-trained passionate developer from Myanmar. My hobby of playing and creating video games in free time made me naturally tech-savvy. I have a solid educational background in Mathematics and exceptional problem-solving skills. I've always been fascinated by computer technologies and how they can make people's lives more convenient or fun. My experience of self-learning and teaching people has grown me into an adaptable learner. Looking for my first job as a front-end developer, a similar position or in a company revolving around that field.",
   workHistory: [
     {
       index: 3, //  larger index = more recent in chronological order
@@ -13,9 +13,9 @@ export const resume = {
       fromDate: "August 2020",
       toDate: "February 2021", // empty data condition
       highlights: [
-        "Experience as an entrepreneur",
-        "Founded through start-up acceleration challenge winner's prize at Phandeeyar",
-        "Played versatile roles in a team of 4 founders and surpassed the start-up sustainability milestones set by the accelerators",
+        "Experience as an entrepreneur, led the team to success with 3 co-founders",
+        "Achieved 250+ satisfied clients in the first 4 months",
+        "Ceased operations when the digital industry crashed in Myanmar due to the coup",
       ],
     },
     {
@@ -26,9 +26,9 @@ export const resume = {
       fromDate: "May 2017",
       toDate: "June 2018",
       highlights: [
-        "Learnt Wordpress template editing for the video-downloading website",
-        "Remote working experience with foreigners speaking English",
-        "Gained knowledge on video encoding, URL shortening, domain, hosting and web ads",
+        "Contributed ideas for better web experience",
+        "Great encounter with web design",
+        "Worked remotely with an India-based English-spoken team",
       ],
     },
     {
@@ -39,8 +39,8 @@ export const resume = {
       fromDate: "May 2017",
       toDate: "Sep 2017",
       highlights: [
-        "A former student and joined as a part-timer after the matriculation exam",
-        "A good experience of teaching students of different learning capabilities and interests",
+        "An alumnus and joined as a part-timer after the matriculation exam",
+        "Taught 10+ students of different learning capabilities and interests",
         "First self-earned income in life",
       ],
     },
