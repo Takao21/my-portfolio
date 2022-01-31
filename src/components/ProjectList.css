@@ -163,13 +163,13 @@
     padding-left: 0;
   }
   .ProjectList .prj-card {
-    min-width: calc(50vw - 3rem);
-    width: calc(50vw - 3rem);
-    height: calc(50vw * 0.66 - 3.1rem * 0.66);
+    min-width: calc(75vw - 3rem);
+    width: calc(75vw - 3rem);
+    height: calc(75vw * 0.66 - 3.1rem * 0.66);
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 480px) {
   .ProjectList .prj-card {
     min-width: calc(100vw - 3.1rem);
     width: calc(100vw - 3.1rem);
