@@ -11,6 +11,7 @@ function App() {
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
   const [openNav, setOpenNav] = useState(false);
+  const [viewportWidth, setViewportWidth] = useState(69);
 
   useEffect(() => {
     setOpenNav(false);
@@ -43,8 +44,7 @@ function App() {
           openNav={openNav}
           setOpenNav={setOpenNav}
         />
-        {/* <CurrentPage /> */}
-        <MemoizedCurrentPage />
+        <CurrentPage viewportWidth={viewportWidth} />
         <PageFooter setActivePage={setActivePage} />
         {scrolled && <ScrollTopButton />}
       </div>

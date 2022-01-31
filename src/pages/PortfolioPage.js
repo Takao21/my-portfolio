@@ -4,8 +4,9 @@ import { BigQuote } from "../components/BigQuote";
 import { SkillDiamonds } from "../components/SkillDiamonds";
 import { projects } from "../_fake-api/api_projects";
 import { ProjectList } from "../components/ProjectList";
+import { useEffect } from "react";
 
-export const PortfolioPage = () => {
+export const PortfolioPage = ({ viewportWidth }) => {
   // fake api
   const apiProjects = projects;
   const htmlcssProjects =

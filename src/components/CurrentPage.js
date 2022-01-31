@@ -7,7 +7,7 @@ import { PortfolioPage } from "../pages/PortfolioPage";
 import ScrollToTop from "../util/ScrollToTop";
 import "./CurrentPage.css";
 
-export const CurrentPage = () => {
+export const CurrentPage = ({ viewportWidth }) => {
   return (
     <div className="CurrentPage">
       <ScrollToTop>
@@ -22,10 +22,10 @@ export const CurrentPage = () => {
             <ContactPage />
           </Route>
           <Route exact path={"/home"}>
-            <PortfolioPage />
+            <PortfolioPage viewportWidth={viewportWidth} />
           </Route>
           <Route exact path={"/"}>
-            <PortfolioPage />
+            <PortfolioPage viewportWidth={viewportWidth} />
           </Route>
           <Route>
             <h1 className="text-center mt-5">Error 404: Page Not Found</h1>
@@ -38,4 +38,3 @@ export const CurrentPage = () => {
     </div>
   );
 };
-export const MemoizedCurrentPage = React.memo(CurrentPage);
