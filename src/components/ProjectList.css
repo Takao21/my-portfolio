@@ -120,6 +120,13 @@
   height: calc(100% - 4rem + 1px);
   width: 4rem;
   transform: translateY(25%);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.ProjectList:hover .scroll-x-btn {
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .ProjectList .scroll-x-btn svg {
