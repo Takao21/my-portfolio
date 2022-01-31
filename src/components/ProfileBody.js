@@ -46,13 +46,13 @@ export const ProfileBody = ({ apiDevHistory: devHistory }) => {
           <p className="entry-story">{data.story}</p>
         </div>
       ))}
-      <div className="meme-section">
+      {/* <div className="meme-section">
         <img
           className="honestwork-meme"
           src="/pictures/honestworkmeme.jpg"
           alt="it ain't much but it's honest work"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 };
