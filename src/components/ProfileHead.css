@@ -30,7 +30,7 @@
 } */
 
 .ProfileHead .hero-img {
-  background-image: url("../_fake-api/images/kayaba_akihiko.jpg");
+  background-image: url("../_fake-api/images/kayaba-standing.avif");
   background-position: top 0 right -50px;
   background-repeat: no-repeat;
   object-fit: cover;
