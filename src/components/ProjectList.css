@@ -159,6 +159,9 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .ProjectList .prj-cards-container {
+    padding-left: 0;
+  }
   .ProjectList .prj-card {
     min-width: calc(50vw - 3rem);
     width: calc(50vw - 3rem);
@@ -166,10 +169,7 @@
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .ProjectList .prj-cards-container {
-    padding-left: 0;
-  }
+@media only screen and (max-width: 376px) {
   .ProjectList .prj-card {
     min-width: calc(100vw - 3.1rem);
     width: calc(100vw - 3.1rem);
