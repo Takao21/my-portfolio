@@ -112,78 +112,86 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
         )}
         {openNav && (
           <div className="menu-layer">
-            <p className="close-menu-container">
-              <span
-                className="close-menu-button"
-                onClick={() => setOpenNav(false)}
-              >
+            <div
+              className="close-menu-container"
+              onClick={() => setOpenNav(false)}
+            >
+              <span className="close-menu-button">
                 <FontAwesomeIcon icon={faSignOutAlt} />
               </span>
-            </p>
-            <p>
-              <Link
+            </div>
+            <Link
+              onClick={() => {
+                setActivePage("/");
+                setOpenNav(false);
+              }}
+              to={"/"}
+              className="nav-button"
+            >
+              <span
                 className={
                   activePage === "/"
                     ? "my-nav-link active-nav-link"
                     : "my-nav-link"
                 }
-                onClick={() => {
-                  setActivePage("/");
-                  setOpenNav(false);
-                }}
-                to={"/"}
               >
                 Portfolio <FontAwesomeIcon icon={faHome} />
-              </Link>
-            </p>
-            <p>
-              <Link
+              </span>
+            </Link>
+            <Link
+              onClick={() => {
+                setActivePage("/background");
+                setOpenNav(false);
+              }}
+              to={"/background"}
+              className="nav-button"
+            >
+              <span
                 className={
                   activePage === "/background"
                     ? "my-nav-link active-nav-link"
                     : "my-nav-link"
                 }
-                onClick={() => {
-                  setActivePage("/background");
-                  setOpenNav(false);
-                }}
-                to={"/background"}
               >
                 Background
-              </Link>
-            </p>
-            <p>
-              <Link
+              </span>
+            </Link>
+            <Link
+              onClick={() => {
+                setActivePage("/resume");
+                setOpenNav(false);
+              }}
+              to={"/resume"}
+              className="nav-button"
+            >
+              <span
                 className={
                   activePage === "/resume"
                     ? "my-nav-link active-nav-link"
                     : "my-nav-link"
                 }
-                onClick={() => {
-                  setActivePage("/resume");
-                  setOpenNav(false);
-                }}
-                to={"/resume"}
               >
                 Résumé
-              </Link>
-            </p>
-            <p>
-              <Link
+              </span>
+            </Link>
+            <Link
+              onClick={() => {
+                setActivePage("/contact");
+                setOpenNav(false);
+              }}
+              to={"/contact"}
+              className="nav-button"
+            >
+              <span
                 className={
                   activePage === "/contact"
                     ? "my-nav-link active-nav-link"
                     : "my-nav-link"
                 }
-                onClick={() => {
-                  setActivePage("/contact");
-                  setOpenNav(false);
-                }}
-                to={"/contact"}
               >
                 Contact
-              </Link>
-            </p>
+              </span>
+            </Link>
           </div>
         )}
       </div>

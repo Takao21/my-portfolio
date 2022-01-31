@@ -98,8 +98,6 @@
 
 .NavBar .menu-layer .close-menu-container {
   font-size: 2rem;
-  margin-left: 100%;
-  transform: translateX(-100%);
 }
 
 .NavBar .menu-layer p {
@@ -114,5 +112,16 @@
 @media (max-width: 991.98px) {
   .NavBar {
     font-size: 1.2rem;
+  }
+
+  .menu-layer .close-menu-container {
+    width: 100%;
+    text-align: right;
+  }
+
+  .menu-layer .nav-button {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
   }
 }
