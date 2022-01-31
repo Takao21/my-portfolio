@@ -60,7 +60,6 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
             >
               <img
                 className="nav-logo"
-                // src="/pictures/logo.png"
                 src={NavBrand}
                 alt="navigation bar logo"
               />
@@ -98,12 +97,7 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
       {/* Mobile View */}
       <div className="d-block d-md-none mobile-nav container-fluid">
         <Link className="nav-logo" to="/">
-          <img
-            className="nav-logo"
-            // src="/pictures/logo.png"
-            src={NavBrand}
-            alt="navigation bar logo"
-          />
+          <img className="nav-logo" src={NavBrand} alt="navigation bar logo" />
         </Link>
         {!openNav && (
           <span className="toggle-menu-button" onClick={() => setOpenNav(true)}>

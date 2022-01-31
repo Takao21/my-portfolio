@@ -17,7 +17,6 @@ function App() {
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
-    setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     setOpenNav(false);
     // initiate current path in the URL as active page
     const temp = window.location.pathname.split("/");
