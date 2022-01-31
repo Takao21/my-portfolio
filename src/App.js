@@ -1,4 +1,5 @@
 import React from "react";
+import { useLayoutEffect } from "react";
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
@@ -36,6 +37,13 @@ function App() {
     console.info(
       "Source code for this project: https://github.com/Takao21/my-portfolio . Please check it out!"
     );
+  }, []);
+
+  useLayoutEffect(() => {
+    const updateSize = () => {
+      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+    };
+    window.addEventListener("resize", updateSize);
   }, []);
 
   return (
