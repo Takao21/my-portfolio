@@ -11,9 +11,10 @@ function App() {
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
   const [openNav, setOpenNav] = useState(false);
-  const [viewportWidth, setViewportWidth] = useState(69);
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
   useEffect(() => {
+    setViewportWidth(window.innerWidth);
     setOpenNav(false);
     // initiate current path in the URL as active page
     const temp = window.location.pathname.split("/");
