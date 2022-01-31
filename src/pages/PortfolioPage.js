@@ -1,10 +1,8 @@
-import React, { useContext, useEffect } from "react";
 import "./PortfolioPage.css";
 import { BigQuote } from "../components/BigQuote";
 import { SkillDiamonds } from "../components/SkillDiamonds";
 import { projects } from "../_fake-api/api_projects";
 import { ProjectList } from "../components/ProjectList";
-import { VwContext } from "../App";
 
 export const PortfolioPage = () => {
   // fake api
@@ -32,12 +30,6 @@ export const PortfolioPage = () => {
   const ngProjects =
     apiProjects &&
     apiProjects.filter((prj) => prj.categories.includes("angular"));
-
-  const viewportWidth = useContext(VwContext);
-
-  useEffect(() => {
-    console.log(viewportWidth);
-  });
 
   return (
     <div className="PortfolioPage">

@@ -4,7 +4,8 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
+import { VwContext } from "../App";
 import "./ProjectList.css";
 
 export const ProjectList = ({ topic, projects }) => {
@@ -12,9 +13,11 @@ export const ProjectList = ({ topic, projects }) => {
   const scrollLeftRef = useRef();
   const scrollRightRef = useRef();
   let keepScrolling = () => {};
+  const viewportWidth = useContext(VwContext);
 
   useEffect(() => {
     setupScrollButtons();
+    console.log(viewportWidth);
   }, []);
 
   const setupScrollButtons = () => {
