@@ -4,8 +4,7 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useContext, useEffect, useRef } from "react";
-import { VwContext } from "../App";
+import React, { useEffect, useRef } from "react";
 import "./ProjectList.css";
 
 export const ProjectList = ({ topic, projects }) => {
@@ -13,12 +12,10 @@ export const ProjectList = ({ topic, projects }) => {
   const scrollLeftRef = useRef();
   const scrollRightRef = useRef();
   let keepScrolling = () => {};
-  const viewportWidth = useContext(VwContext);
 
   useEffect(() => {
     setupScrollButtons();
-    console.log(viewportWidth);
-  }, []);
+  });
 
   const setupScrollButtons = () => {
     if (cardContainerRef) {
@@ -72,11 +69,7 @@ export const ProjectList = ({ topic, projects }) => {
         <div className="prj-cards-container d-flex" ref={cardContainerRef}>
           {projects.map((prj) => (
             <div className="prj-card" key={prj.id}>
-              <img
-                className="prj-img"
-                src={prj.imageURL}
-                alt={prj.imageAlt}
-              ></img>
+              <img className="prj-img" src={prj.imageURL} alt={prj.imageAlt} />
               <div className="card-desc">
                 <a href={prj.sourceURL} target="_blank" rel="noreferrer">
                   <span className="see-details-btn">

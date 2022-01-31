@@ -6,7 +6,7 @@
 .ProjectList .prj-cards-container {
   padding-left: 1rem;
   padding-bottom: 1rem;
-  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .ProjectList .prj-cards-container::-webkit-scrollbar {
@@ -20,9 +20,10 @@
 }
 
 .ProjectList .prj-card {
+  scroll-snap-align: start;
   min-width: 20rem;
   width: 20rem;
-  height: 15rem;
+  height: calc(20rem * 0.66);
   position: relative;
   cursor: pointer;
   display: block;
@@ -132,4 +133,29 @@
 
 .ProjectList .scroll-right {
   right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .ProjectList .prj-cards-container {
+    scroll-snap-type: x mandatory;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ProjectList .prj-card {
+    min-width: calc(50vw - 3rem);
+    width: calc(50vw - 3rem);
+    height: calc(50vw * 0.66 - 3.1rem * 0.66);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ProjectList .prj-cards-container {
+    padding-left: 0;
+  }
+  .ProjectList .prj-card {
+    min-width: calc(100vw - 3.1rem);
+    width: calc(100vw - 3.1rem);
+    height: calc(100vw * 0.66 - 3.1rem * 0.66);
+  }
 }

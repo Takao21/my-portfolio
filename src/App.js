@@ -13,10 +13,10 @@ function App() {
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
   const [openNav, setOpenNav] = useState(false);
-  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+  const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
-    setViewportWidth(window.innerWidth);
+    setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     setOpenNav(false);
     // initiate current path in the URL as active page
     const temp = window.location.pathname.split("/");
@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <VwContext.Provider value={viewportWidth}>
+    <VwContext.Provider value={windowSize}>
       <Router>
         <div className="App" onClick={() => openNav && setOpenNav(false)}>
           <NavBar
@@ -48,7 +48,7 @@ function App() {
             openNav={openNav}
             setOpenNav={setOpenNav}
           />
-          <CurrentPage viewportWidth={viewportWidth} />
+          <CurrentPage />
           <PageFooter setActivePage={setActivePage} />
           {scrolled && <ScrollTopButton />}
         </div>
