@@ -5,8 +5,9 @@ export const BigQuote = () => {
   return (
     <div className="BigQuote quote-div text-center">
       <blockquote className="my-quote">
-        Don't get bothered by what you can't control. Focus on what you can do.
-        <footer className="quote-footer">Takao</footer>
+        To know is to know that you know nothing. That is the true meaning of
+        knowledge.
+        <footer className="quote-footer">Socrates</footer>
       </blockquote>
     </div>
   );
