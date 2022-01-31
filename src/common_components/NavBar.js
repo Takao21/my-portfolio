@@ -7,6 +7,7 @@ import {
   faThList,
   faSignOutAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import NavBrand from "../_fake-api/images/nav-brand.avif";
 
 export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
   useEffect(() => {
@@ -59,7 +60,8 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
             >
               <img
                 className="nav-logo"
-                src="/pictures/logo.png"
+                // src="/pictures/logo.png"
+                src={NavBrand}
                 alt="navigation bar logo"
               />
             </Link>
@@ -98,7 +100,8 @@ export const NavBar = ({ activePage, setActivePage, openNav, setOpenNav }) => {
         <Link className="nav-logo" to="/">
           <img
             className="nav-logo"
-            src="/pictures/logo.png"
+            // src="/pictures/logo.png"
+            src={NavBrand}
             alt="navigation bar logo"
           />
         </Link>
