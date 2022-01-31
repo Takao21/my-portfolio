@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import "./PortfolioPage.css";
 import { BigQuote } from "../components/BigQuote";
 import { SkillDiamonds } from "../components/SkillDiamonds";
 import { projects } from "../_fake-api/api_projects";
 import { ProjectList } from "../components/ProjectList";
-import { useEffect } from "react";
+import { VwContext } from "../App";
 
-export const PortfolioPage = ({ viewportWidth }) => {
+export const PortfolioPage = () => {
   // fake api
   const apiProjects = projects;
   const htmlcssProjects =
@@ -32,6 +32,12 @@ export const PortfolioPage = ({ viewportWidth }) => {
   const ngProjects =
     apiProjects &&
     apiProjects.filter((prj) => prj.categories.includes("angular"));
+
+  const viewportWidth = useContext(VwContext);
+
+  useEffect(() => {
+    console.log(viewportWidth);
+  });
 
   return (
     <div className="PortfolioPage">

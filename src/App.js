@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
@@ -7,6 +8,7 @@ import { ScrollTopButton } from "./common_components/ScrollTopButton";
 // eslint-disable-next-line no-unused-vars
 import { CurrentPage, MemoizedCurrentPage } from "./components/CurrentPage";
 
+export const VwContext = React.createContext(0);
 function App() {
   const [scrolled, setScrolled] = useState(false);
   const [activePage, setActivePage] = useState("/");
@@ -37,19 +39,21 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <div className="App" onClick={() => openNav && setOpenNav(false)}>
-        <NavBar
-          activePage={activePage}
-          setActivePage={setActivePage}
-          openNav={openNav}
-          setOpenNav={setOpenNav}
-        />
-        <CurrentPage viewportWidth={viewportWidth} />
-        <PageFooter setActivePage={setActivePage} />
-        {scrolled && <ScrollTopButton />}
-      </div>
-    </Router>
+    <VwContext.Provider value={viewportWidth}>
+      <Router>
+        <div className="App" onClick={() => openNav && setOpenNav(false)}>
+          <NavBar
+            activePage={activePage}
+            setActivePage={setActivePage}
+            openNav={openNav}
+            setOpenNav={setOpenNav}
+          />
+          <CurrentPage viewportWidth={viewportWidth} />
+          <PageFooter setActivePage={setActivePage} />
+          {scrolled && <ScrollTopButton />}
+        </div>
+      </Router>
+    </VwContext.Provider>
   );
 }
 
