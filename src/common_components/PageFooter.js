@@ -24,8 +24,8 @@ export const PageFooter = ({ setActivePage }) => {
       </div>
 
       <p className="mt-3">
-        Portfolio &copy; Aung Kaung Khant (Takao), 2021, Fully Developed By
-        Myself
+        Portfolio &copy; Aung Kaung Khant, 2022, Images comply with Fair Use
+        Act.
       </p>
     </div>
   );
