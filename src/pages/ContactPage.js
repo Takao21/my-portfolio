@@ -20,7 +20,7 @@ export const ContactPage = () => {
               <FontAwesomeIcon icon={faEnvelope} /> Email
             </h2>
             <p>dragon.takao21@gmail.com</p>
-            <a href="mailto:dragon.takao21@gmail.com">
+            <a href="mailto:developer.aungkaungkhant@gmail.com">
               <p className="action-btn">
                 Send Email
                 <span className="action-note">

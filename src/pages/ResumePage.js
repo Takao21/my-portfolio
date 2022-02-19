@@ -56,7 +56,7 @@ export const ResumePage = () => {
                   className="resumeside-icon"
                   icon={faEnvelope}
                 />
-                dragon.takao21@gmail.com
+                developer.aungkaungkhant@gmail.com
               </p>
               <p>
                 <FontAwesomeIcon
