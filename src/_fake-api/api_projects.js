@@ -13,6 +13,7 @@ import DocWeb from "../_fake-api/images/apiImages/docweb.avif";
 import LandingPage from "../_fake-api/images/apiImages/landingpage.avif";
 import YTUAC from "../_fake-api/images/apiImages/ytuac.avif";
 import MembershipCRUD from "../_fake-api/images/apiImages/membershipcrud.avif";
+import TCGMarketplace from "../_fake-api/images/apiImages/tcgmarketplace.avif";
 
 export const projects = [
   {
@@ -163,13 +164,13 @@ export const projects = [
   {
     id: 14,
     categories: ["react"],
-    title: "Online Shop UI",
+    title: "Pokemon Marketplace",
     // imageURL: "https://i.imgur.com/CfE7QD3.png",
-    imageURL: ShopUI,
-    imageAlt: "Online Shop UI",
+    imageURL: TCGMarketplace,
+    imageAlt: "Pokemon Marketplace",
     shortDesc:
-      "In this project, I practiced on the Add-To-Cart mechanism of online shops using Redux and created a UI around it using Material UI. Follow the arrow to view the source code in my Github.",
-    sourceURL: "https://github.com/Takao21/shopping-redux-ui",
+      "This practice project uses a free Pokemon Card Market API to display pokemon cards that are on sale and do client-side CRUD on them with an Add To Cart mechanism.",
+    sourceURL: "https://tcg-marketplace.herokuapp.com/",
   },
   {
     id: 15,
