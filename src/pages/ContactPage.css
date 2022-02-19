@@ -37,6 +37,8 @@
 
 .ContactPage .contact-card p {
   font-size: 1rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .ContactPage .contact-card .action-btn {
