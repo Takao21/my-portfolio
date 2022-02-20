@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef } from "react";
 import "./ProjectList.css";
 
-export const ProjectList = ({ topic, projects }) => {
+export const ProjectList = ({ topic, recommended, projects }) => {
   const cardContainerRef = useRef();
   const scrollLeftRef = useRef();
   const scrollRightRef = useRef();
@@ -63,6 +63,9 @@ export const ProjectList = ({ topic, projects }) => {
           <FontAwesomeIcon icon={faAngleRight} />
         </div>
         <div className="category-title">
+          {recommended && (
+            <span className="recommend-label">Most Impressive</span>
+          )}
           <h3>{topic} Projects</h3>
         </div>
         <hr />

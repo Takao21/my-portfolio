@@ -35,7 +35,7 @@ export const PortfolioPage = () => {
     <div className="PortfolioPage">
       <BigQuote />
       <SkillDiamonds />
-      <ProjectList topic="React/Redux" projects={reactProjects} />
+      <ProjectList topic="React/Redux" projects={reactProjects} recommended />
       <ProjectList topic="JavaScript" projects={jsProjects} />
       <ProjectList topic="Angular" projects={ngProjects} />
       <ProjectList topic="Bootstrap" projects={bootstrapProjects} />
