@@ -144,7 +144,7 @@ export const projects = [
     imageURL: NintendoClone,
     imageAlt: "Nintendo Clone with React",
     shortDesc:
-      "I made a front-end clone of nintendo.com as a practice project for ReactJS. It took me about 4 weeks with about 80 hours of work.",
+      "Front-end clone of nintendo.com using ReactJS. I tried to keep the design as identical as possible. The card sliders are my proudest components. They are fine-tuned for a pleasant user experience.",
     sourceURL: "http://nintendo-clone.herokuapp.com/",
   },
 
@@ -156,7 +156,7 @@ export const projects = [
     imageURL: LilChef,
     imageAlt: "Little Chef Restaurant",
     shortDesc:
-      "I built this small website over a span of 2 weeks as a practice project after studying React with seniors.  I tried to create a soft bright theme to represent clouds and heaven. The clouds banner animation on the homepage was inspired by a Youtube tutorial I've watched before.",
+      "I built this small website as a practice project after studying React with seniors.  I tried to create a soft bright theme to represent clouds and heaven. The clouds banner animation on the homepage was inspired by a Youtube tutorial I've watched before.",
     sourceURL:
       "https://www.linkedin.com/feed/update/urn:li:activity:6718480584575975424/",
   },
