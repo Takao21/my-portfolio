@@ -1,6 +1,5 @@
 import NintendoClone from "../_fake-api/images/apiImages/nintendoclone.avif";
 import LilChef from "../_fake-api/images/apiImages/lilchef.avif";
-import ShopUI from "../_fake-api/images/apiImages/shopui.avif";
 import TrelloClone from "../_fake-api/images/apiImages/trello-clone-react.avif";
 import StopwatchWeb from "../_fake-api/images/apiImages/stopwatch.avif";
 import MorseWeb from "../_fake-api/images/apiImages/morse.avif";
@@ -165,7 +164,6 @@ export const projects = [
     id: 14,
     categories: ["react"],
     title: "Pokemon Marketplace",
-    // imageURL: "https://i.imgur.com/CfE7QD3.png",
     imageURL: TCGMarketplace,
     imageAlt: "Pokemon Marketplace",
     shortDesc:
